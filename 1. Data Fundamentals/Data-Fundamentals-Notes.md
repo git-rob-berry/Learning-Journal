@@ -145,3 +145,13 @@ Suppose BT wants to understand why customers leave:
   
 	• Employee satisfaction trends, possibility showing relation to employee turnover.
 
+## Key Concepts
+
+- Data-Driven Enterprise – Organisations use data to make informed business decisions.  
+- Data Science Hierarchy of Needs – Reliable data collection, storage, and pipelines must exist before analytics, machine learning, and AI can succeed.  
+- 5 Vs of Big Data – Volume, Velocity, Variety, Veracity, and Value describe key characteristics of data.   
+- Data Engineering Lifecycle – Data is collected, cleaned, explored, and transformed into actionable insights.   
+- Data Team Roles – Software Engineers create data, Data Engineers prepare it, Analysts explain it, Scientists predict outcomes, and the CDO sets strategy.  
+- Data as a Product – Data should be valuable, accessible, understandable, trustworthy, and secure.   
+- Decision Trees – A machine learning technique that uses a series of questions to classify or predict outcomes.  
+- Combining Data Sources – Integrating data from multiple systems provides richer insights and enables new KPIs and business value.  
