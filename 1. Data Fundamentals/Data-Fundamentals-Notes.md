@@ -30,22 +30,22 @@
 
 ### The "5 Vs" of Big Data
 
-Value – how useful the data is.
-Variety – the different types of data.
-Velocity – how fast data is generated and processed.
-Veracity – how reliable and accurate the data is.
-Volume – how much data there is.
+	Value – how useful the data is.  
+	Variety – the different types of data.  
+	Velocity – how fast data is generated and processed.  
+	Veracity – how reliable and accurate the data is.  
+	Volume – how much data there is.  
 
 ### Types of data
 
-Quantitative:
-Discrete: Fits within a range, has a true end point. 
-Continuous: No true end, limit, maximum. 
+	Quantitative:  
+	Discrete: Fits within a range, has a true end point.   
+	Continuous: No true end, limit, maximum.   
 
-Qualitative: 
-Nominal
-Ordinal
-Binomial.
+	Qualitative:   
+	Nominal  
+	Ordinal  
+	Binomial.  
 
 ### Adding value with data
 
@@ -99,7 +99,7 @@ Suppose BT wants to understand why customers leave:
 
 ### Task
 
-[Task PDF](1. Data Fundamentals/M1T1-Collaborate-ActBrief.pdf)
+[Task PDF](https://github.com/git-rob-berry/Learning-Journal/blob/fd1ded58a432af1947e665e3fe731407897d3086/1.%20Data%20Fundamentals/Files/M1T1-Collaborate-ActBrief.pdf)
 
 **Approach**
 
