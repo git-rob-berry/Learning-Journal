@@ -99,7 +99,7 @@ Suppose BT wants to understand why customers leave:
 
 ### Task
 
-[Task PDF](/M1T1-Collaborate-ActBrief.pdf)
+[Task PDF](1. Data Fundamentals/M1T1-Collaborate-ActBrief.pdf)
 
 **Approach**
 
