@@ -25,7 +25,7 @@
 
 ### Data science hierarchy of needs
 
-<img width="1595" height="853" alt="image" src="https://github.com/user-attachments/assets/df68d14e-9adb-4f63-abe4-28c6171ccfcb" />
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/df68d14e-9adb-4f63-abe4-28c6171ccfcb" />
 
 
 ### The "5 Vs" of Big Data
@@ -95,7 +95,7 @@ Suppose BT wants to understand why customers leave:
 
 ### Data as a product
 
-  <img width="939" height="782" alt="image" src="https://github.com/user-attachments/assets/ea79650e-f97d-493e-8f9d-c6a0081541c0" />
+  <img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/ea79650e-f97d-493e-8f9d-c6a0081541c0" />
 
 ### Task
 
@@ -155,3 +155,24 @@ Suppose BT wants to understand why customers leave:
 - Data as a Product – Data should be valuable, accessible, understandable, trustworthy, and secure.   
 - Decision Trees – A machine learning technique that uses a series of questions to classify or predict outcomes.  
 - Combining Data Sources – Integrating data from multiple systems provides richer insights and enables new KPIs and business value.  
+
+# Data Quality
+
+## eLearning
+
+### Goal
+
+> Recognise the core metrics, open standards, and data quality management strategies used in data engineering essential for ensuring data quality.
+
+### Summary
+
+Metrics (I ACT):  
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/03f81569-a737-4e5c-89f2-85d241037e00" />
+
+FAIR Data Standards:  
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/dc7c4a8c-65a2-4965-bd82-0f066d9b8a70" />
+
+
+
+
+
