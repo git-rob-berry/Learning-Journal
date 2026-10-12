@@ -30,72 +30,71 @@
 
 ### The "5 Vs" of Big Data
 
-	Value – how useful the data is.  
-	Variety – the different types of data.  
-	Velocity – how fast data is generated and processed.  
-	Veracity – how reliable and accurate the data is.  
-	Volume – how much data there is.  
+**Value** – how useful the data is.  
+**Variety** – the different types of data.  
+**Velocity** – how fast data is generated and processed.  
+**Veracity** – how reliable and accurate the data is.  
+**Volume** – how much data there is.  
 
 ### Types of data
 
-	Quantitative:  
-	Discrete: Fits within a range, has a true end point.   
-	Continuous: No true end, limit, maximum.   
+**Quantitative:** 
+- Discrete: Fits within a range, has a true end point.   
+- Continuous: No true end, limit, maximum.   
 
-	Qualitative:   
-	Nominal  
-	Ordinal  
-	Binomial.  
+**Qualitative:**  
+- Nominal  
+- Ordinal  
+- Binomial.  
 
 ### Adding value with data
 
-	1) Data wrangling - Sourcing, collecting, preparing, cleaning, formatting. 
-	2) Data exploration - Experimentation (with analysts), observation, modelling and evaluation.
-	3) Data operationalisation - Model deployment, visualising results, defining strategies.
+1) **Data wrangling** - Sourcing, collecting, preparing, cleaning, formatting. 
+2) **Data exploration** - Experimentation (with analysts), observation, modelling and evaluation.
+3) **Data operationalisation** - Model deployment, visualising results, defining strategies.
 
 ### Data teams 
 
-Team/Role -	Value they bring to final insights
+_Team/Role -	Value they bring to final insights_
 
-Chief Data Officer (CDO) - Sets the data strategy, governance, quality standards, and ensures data is used to achieve business goals. Makes sure the organisation trusts and can use the insights.
+**Chief Data Officer (CDO)** - Sets the data strategy, governance, quality standards, and ensures data is used to achieve business goals. Makes sure the organisation trusts and can use the insights.
 
-Data Engineer	- Collects, cleans, transforms, and stores data. Builds the pipelines that make reliable data available. Without them, there is no trustworthy data to analyse.
+**Data Engineer**	- Collects, cleans, transforms, and stores data. Builds the pipelines that make reliable data available. Without them, there is no trustworthy data to analyse.
 
-Software Engineer	- Creates and maintains the applications, APIs, and systems that generate and consume data. Ensures data can flow between systems.
+**Software Engineer**	- Creates and maintains the applications, APIs, and systems that generate and consume data. Ensures data can flow between systems.
 Data Scientist - Uses statistics and machine learning to uncover patterns, make predictions, and answer complex questions. Turns data into advanced insights and forecasts.
 
-Data Analyst - Explores data, creates dashboards and reports, identifies trends, and translates findings into business recommendations. Often presents the final insights to stakeholders.
+**Data Analyst** - Explores data, creates dashboards and reports, identifies trends, and translates findings into business recommendations. Often presents the final insights to stakeholders.
 
 ### How they work together
 
-    - Software Engineer → generates and captures data from business systems
-    
-    - Data Engineer → moves, cleans, and prepares the data
-    
-    - Data Analyst → explains what happened and why
-    
-    - Data Scientist → predicts what might happen next
-    
-    - [M1T1-Collaborate-ActBrief.pdf](https://github.com/user-attachments/files/33257511/M1T1-Collaborate-ActBrief.pdf)
-Chief Data Officer → ensures insights are used effectively to drive business decisions
+- **Software Engineer** → generates and captures data from business systems
+
+- **Data Engineer** → moves, cleans, and prepares the data
+
+- **Data Analyst** → explains what happened and why
+
+- **Data Scientist** → predicts what might happen next
+
+- **Chief Data Officer** → ensures insights are used effectively to drive business decisions
 
 ### Simple example (BT context)
 
-Suppose BT wants to understand why customers leave:
+_Suppose BT wants to understand why customers leave:_
 
-	• Software Engineers ensure customer and billing systems record the data.
-  
-	• Data Engineers build pipelines to combine customer, billing, and network data.
-  
-	• Data Analysts find that customers with repeated faults are more likely to leave.
-  
-	• Data Scientists create a model predicting which customers are at risk of leaving.
-  
-	• Chief Data Officer uses these insights to shape customer-retention strategy.
+- Software Engineers ensure customer and billing systems record the data.
+
+- Data Engineers build pipelines to combine customer, billing, and network data.
+
+- Data Analysts find that customers with repeated faults are more likely to leave.
+
+- Data Scientists create a model predicting which customers are at risk of leaving.
+
+- Chief Data Officer uses these insights to shape customer-retention strategy.
 
 ### Data as a product
 
-  <img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/ea79650e-f97d-493e-8f9d-c6a0081541c0" />
+  <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/ea79650e-f97d-493e-8f9d-c6a0081541c0" />
 
 ### Task
 
@@ -103,49 +102,35 @@ Suppose BT wants to understand why customers leave:
 
 **Approach**
 
-	• Extract data from the CSV, SQL database, and JSON sources.
-  
-	• Standardise employee IDs, date formats, and field names across all datasets.
-  
-	• Clean the data by identifying missing values, duplicates, and inconsistent records.
-  
-	• Transform and merge the datasets into a single HR analytics dataset for reporting and analysis.
+- Extract data from the CSV, SQL database, and JSON sources.
+- Standardise employee IDs, date formats, and field names across all datasets.
+- Clean the data by identifying missing values, duplicates, and inconsistent records.
+- Transform and merge the datasets into a single HR analytics dataset for reporting and analysis.
 
 **Challenges Faced**
 
-	• Integrating data from three different formats (CSV, SQL, and JSON).
-  
-	• Resolving inconsistencies in employee IDs (e.g. 1 versus 001).
-  
-	• Converting different date formats into a common standard.
-  
-	• Ensuring data quality and consistency before combining datasets.
-  
-	• Limited sample data available for identifying stronger trends and correlations.
+- Integrating data from three different formats (CSV, SQL, and JSON).
+- Resolving inconsistencies in employee IDs (e.g. 1 versus 001).
+- Converting different date formats into a common standard.
+- Ensuring data quality and consistency before combining datasets.
+- Limited sample data available for identifying stronger trends and correlations.
 
 **Key Insights**
 
-	• Employee performance ratings were generally high, ranging from 3.8 to 4.5.
-  
-	• Engagement scores were also positive, ranging from 78 to 90.
-  
-	• Survey feedback highlighted strong collaboration and overall workplace satisfaction.
-  
-	• Requests for additional skill development opportunities suggest learning remains a key employee priority.
-  
-	• Combining performance, learning, and engagement data provides a more complete view of employee development and organisational performance.
+- Employee performance ratings were generally high, ranging from 3.8 to 4.5.
+- Engagement scores were also positive, ranging from 78 to 90.
+- Survey feedback highlighted strong collaboration and overall workplace satisfaction.
+- Requests for additional skill development opportunities suggest learning remains a key employee priority.
+- Combining performance, learning, and engagement data provides a more complete view of employee development and organisational performance.
 
 **Examples of new KPIs as a result of combining the data**
 
-	• Create a KPI metric that looks at the overall percentage of employees who are on-track relative to the total headcount.
-  
-	• You can see if engagement has a relationship with performance.
-  
-	• Suitable Learning courses for selected Employee based on comments and combined Review and Engagement score.
-  
-	• Employee satisfaction trends, possibility showing relation to employee turnover.
+- Create a KPI metric that looks at the overall percentage of employees who are on-track relative to the total headcount.
+- You can see if engagement has a relationship with performance.
+- Suitable Learning courses for selected Employee based on comments and combined Review and Engagement score.
+- Employee satisfaction trends, possibility showing relation to employee turnover.
 
-## Key Concepts
+## Key Concepts in this Module
 
 - Data-Driven Enterprise – Organisations use data to make informed business decisions.  
 - Data Science Hierarchy of Needs – Reliable data collection, storage, and pipelines must exist before analytics, machine learning, and AI can succeed.  
@@ -156,7 +141,8 @@ Suppose BT wants to understand why customers leave:
 - Decision Trees – A machine learning technique that uses a series of questions to classify or predict outcomes.  
 - Combining Data Sources – Integrating data from multiple systems provides richer insights and enables new KPIs and business value.  
 
-# Data Quality
+
+# 1.2 Data Quality
 
 ## eLearning
 
@@ -176,6 +162,13 @@ Naming Conventions:
 <img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/68c4fbaa-bd1c-479d-88d0-f8d041ea892b" />
 
 
+- Data quality metrics, such as accuracy, integrity, consistency, and timeliness, are crucial for ensuring data meets technical and business requirements  
+- Open standards and metadata play a vital role in promoting interoperability and data sharing across systems and organisations  
+- Navigating quality issues in common data formats like XML, CSV, and JSON is essential for seamless data exchange and integration  
+- Data quality management strategies, including data profiling, validation, and monitoring, are necessary for maintaining data accuracy and reliability  
+- Adhering to data protection regulations, such as GDPR, and implementing robust data governance frameworks are critical for responsible data handling  
+- Data testing methodologies, including horizontal testing, historical analysis, rule-based testing, and statistical testing, help identify and mitigate data quality issues  
+- Utilising data quality testing tools, frameworks, and manual testing techniques contributes to comprehensive data quality assurance  
 
 
 
