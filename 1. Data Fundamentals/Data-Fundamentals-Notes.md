@@ -162,13 +162,16 @@ Naming Conventions:
 <img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/68c4fbaa-bd1c-479d-88d0-f8d041ea892b" />
 
 
-- Data quality metrics, such as accuracy, integrity, consistency, and timeliness, are crucial for ensuring data meets technical and business requirements  
+- Data quality metrics, such as **accuracy, integrity, consistency, and timeliness**, are crucial for ensuring data meets technical and business requirements  
 - Open standards and metadata play a vital role in promoting interoperability and data sharing across systems and organisations  
 - Navigating quality issues in common data formats like XML, CSV, and JSON is essential for seamless data exchange and integration  
-- Data quality management strategies, including data profiling, validation, and monitoring, are necessary for maintaining data accuracy and reliability  
+- Data quality management strategies, including **data profiling, validation, and monitoring,** are necessary for maintaining data accuracy and reliability  
 - Adhering to data protection regulations, such as GDPR, and implementing robust data governance frameworks are critical for responsible data handling  
-- Data testing methodologies, including horizontal testing, historical analysis, rule-based testing, and statistical testing, help identify and mitigate data quality issues  
+- Data testing methodologies, including **horizontal testing, historical analysis, rule-based testing, and statistical testing**, help identify and mitigate data quality issues  
 - Utilising data quality testing tools, frameworks, and manual testing techniques contributes to comprehensive data quality assurance  
+
+## Webinar
+
 
 
 
