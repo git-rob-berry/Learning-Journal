@@ -172,6 +172,12 @@ Metrics (I ACT):
 FAIR Data Standards:  
 <img width="250" height="auto" alt="image" src="https://github.com/user-attachments/assets/dc7c4a8c-65a2-4965-bd82-0f066d9b8a70" />
 
+Naming Conventions:  
+<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/68c4fbaa-bd1c-479d-88d0-f8d041ea892b" />
+
+
+
+
 
 
 
