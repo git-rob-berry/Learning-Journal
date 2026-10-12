@@ -170,7 +170,9 @@ Metrics (I ACT):
 <img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/03f81569-a737-4e5c-89f2-85d241037e00" />
 
 FAIR Data Standards:  
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/dc7c4a8c-65a2-4965-bd82-0f066d9b8a70" />
+<img width="250" height="auto" alt="image" src="https://github.com/user-attachments/assets/dc7c4a8c-65a2-4965-bd82-0f066d9b8a70" />
+
+
 
 
 
