@@ -222,7 +222,15 @@ Cost to environment, business, society.
 <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/6567ebf7-a431-4cb2-be2d-06d36464a450" />
 
 
+## The key takeaways from this session are as follows:
 
+- Data quality encompasses dimensions like accuracy, integrity, consistency, timeliness, and reliability
+- Following data and metadata standards like FAIR principles, Dublin Core, etc. helps improve data findability, accessibility, interoperability, 
+and reusability
+- Data lineage tracking and use of unique identifiers enable transparent data management and enhance data integrity/compliance
+- Data wrangling, cleansing, and stewardship techniques help improve data quality
+- Data compression and green data transfer practices aid sustainability and net-zero goals by reducing storage/bandwidth requirements
+- Implementing a robust data quality framework (e.g. DMAIC) supported by data governance is key for maintaining high data quality standards
 
 
 
