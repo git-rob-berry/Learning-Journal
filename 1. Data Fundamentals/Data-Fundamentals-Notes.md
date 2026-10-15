@@ -172,6 +172,58 @@ Naming Conventions:
 
 ## Webinar
 
+### JSON data quality
+
+> Pretty Library in Python (a JSON validator) tidies up JSON data and nesting to make it more readable.
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/e601f63b-34d3-4464-9b3b-6e7fd161f967" />
+
+
+### Wrangling vs. Cleaning
+
+- Data cleaning is compulsory for correct data, e.g. deal with missing values or duplicates. 
+- Data wrangling is transformation of raw data into structure for analysis, e.g. creating an age column from D.O.B information (dimension added for analysis). 
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/10319b24-8ca4-4e97-9bb0-a2db3d7f4f41" />
+
+> Pandas allow vectorised operation to change data types.
+
+### Data stewardship
+
+Important for compliance, data quality management and trust in data. 
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/d822f559-9dca-491e-ad37-fc744f4b3f3b" />  
+
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/b016bf48-98ed-46a5-80c5-d239f53fe095" />  
+
+
+### Sustainability
+
+Cost to environment, business, society.
+
+- Data compression to recue impact of data storage and transfer
+- Advanced compression algorithms
+- Lower storage and bandwidth requirements
+- Lower energy consumption and carbon footprint
+- Green data transfer - Smart scheduling (e.g. At night for cheaper energy, do in in Sweden using green fuels)
+
+### Semantic validity
+
+- Ensuring data accurately represents the real-world situation.
+- Ensures data is meaningful. Describes how data connects and relates to each other (ERD).
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/1b66fc79-e427-44fa-a515-d3db1cfc2fbd" />
+
+
+### Data quality framework (DMAIC)
+
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/6567ebf7-a431-4cb2-be2d-06d36464a450" />
+
+
+
+
 
 
 
