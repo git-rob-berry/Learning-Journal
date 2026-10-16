@@ -250,9 +250,38 @@ S26: Identify data quality metrics and track them to ensure the quality, accurac
 ### Behaviours
 B3: Quality focus that promotes continuous improvement utilising peer review techniques, innovation and creativity to the data system development process to improve processes and address business challenges.
 
+## eLearning - Automated Data Quality Management
 
+### Goal
+>The aim of this activity is to gain hands-on experience with automated data quality management tools and techniques by researching, exploring, and documenting your findings in your learning journal.
 
+1. **Schema validation**  
+*What is it?*  
+Ensures data adheres to a predefined data model or schema.  
+*How does it do it?*  
+Maintains consistency by aligning data types with schema definitions.  
+*Example:* Validating a JSON file against a JSON schema.
 
+2. **Syntax checking**  
+*What is it?*  
+Automates the detection of syntax errors in data files.  
+*How does it do it?*  
+Checks for missing or extra delimiters, incorrect field separators, or misplaced quotation marks.  
+*Example:* Scanning a CSV file for comma inconsistencies or missing line terminators.
+
+3. **Range verification**  
+*What is it?*  
+Checks if data values fall within specified ranges or constraints.  
+*How does it do it?*  
+Identifies out-of-range or invalid values based on predefined rules.  
+*Example:* Verifying that an age value is within a valid range (e.g., 0-120 years).
+
+4. **Consistency checks**  
+*What is it?*  
+Detects inconsistencies within or across datasets.  
+*How does it do it?*  
+Ensures data conforms to defined business rules or integrity constraints.  
+*Example:* Checking if a customer's address matches across multiple data sources.
 
 
 
