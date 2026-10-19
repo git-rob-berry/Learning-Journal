@@ -448,5 +448,31 @@ _Example:_
 
 ### Effective stakeholder management 
 
+1. **Stakeholder ID and prioritisation**  
+<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/fb616b16-5570-48aa-b62e-74744cfa5487" />  
 
+2. **User-centric requirements capture** - Utilise concise, human-centric user stories to capture stakeholder needs and ensure data solutions are aligned with end-user requirements
 
+3. **Effective communication channels** - The director carefully selected the most appropriate communication channels for different types of interactions. _E.g. For routine updates, email proved effective, while complex discussions were better suited for in-person meetings or virtual workshops._
+
+4. **Gathering insights through interviews and observations** - Delve deeper into user needs, conducted structured interviews with users and stakeholders. Observe daily workflows and pain points first hand.
+
+5. Collaborative workshops and personas - Organise collaborative workshops, bringing together cross-functional teams to discuss and refine requirements. Created detailed user personas, capturing the goals, behaviours, and pain points of key stakeholder groups.
+
+6. Aligning technical specifications - With a comprehensive understanding of stakeholder requirements, more able to translate the business needs into clear technical specifications. 
+
+### Key learning from this module 
+
+- Agile methodologies offer greater flexibility and responsiveness to change compared to the linear Waterfall approach, making them well-suited for dynamic data science projects
+
+- Scrum and Kanban provide structured Agile frameworks that empower data teams to collaborate effectively, manage workflows, and continuously improve their processes
+
+- Lean principles focus on eliminating waste and optimising processes, while Six Sigma aims to reduce variability and defects - combining these approaches can significantly enhance data quality and project efficiency
+
+- Comprehensive stakeholder engagement, through methods like user stories, interviews, and collaborative workshops, is crucial for aligning data solutions with the needs of end-users and business stakeholders
+
+- Effective communication and translation of business requirements into technical specifications enable data teams to position themselves as strategic partners within the organisation, driving sustainable, data-driven transformation
+
+- The sprint retrospective is a valuable Scrum ceremony that fosters a culture of continuous learning, empowering data teams to openly discuss successes, failures, and implement insights for ongoing improvement
+
+- Integrating Agile, Lean, and Six Sigma principles provides a powerful toolkit for data professionals to navigate the complexities of data projects, enhance collaboration, and deliver high-impact solutions
