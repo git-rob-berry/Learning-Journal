@@ -309,7 +309,7 @@ Waterfall works well for projects with clear, static requirements where changes 
  
 1. **Difficulty accommodating change**  <br>
 
-When working on data projects, we often learn from the data, especially when exploring unstructured data. This means that our business and user requirements may change over time. Most waterfall approaches do not allow for the requirements to change which makes them ill-suited for typical data projects such as identifying trends and patterns in the data and responding to predictions that are being made in real time.  
+When working on data projects, we often learn from the data, especially when exploring unstructured data. This means that our business and user requirements may change over time. Most waterfall approaches **do not allow for the requirements to change** which makes them ill-suited for typical data projects such as identifying trends and patterns in the data and responding to predictions that are being made in real time.  
 
 > Unsuitable if a project has changing requirements and lack of wholistic understanding at the beginning - _Agile breaks down large projects into sub-proects mean better scalability and flexibility._  
 
@@ -317,18 +317,58 @@ When working on data projects, we often learn from the data, especially when exp
 
 The sequential nature of Waterfall can result in lengthy development cycles, failing to keep pace with rapidly changing market conditions and user needs.     
 
-Many consumers of data products need to receive frequent updates and expect new functionality to be delivered rapidly, which Waterfall is not particularly suitable for.  
+Many consumers of data products need to receive **frequent updates** and expect new functionality to be delivered rapidly, which Waterfall is not particularly suitable for.  
 
 3. **Lack of stakeholder feedback**  <br>
 
-The Waterfall model limits the ability to obtain timely feedback from stakeholders and end-users, increasing the risk of delivering a solution that no longer meets their needs.  
+The Waterfall model limits the ability to obtain **timely feedback** from stakeholders and end-users, increasing the risk of delivering a solution that **no longer meets their needs**.  
 
 > Stakeholders can become frustrated without regular feedback loops and input. - _Agile has increased end user engagement and opportunities for feedback._  
 
 4. **Challenges with data complexity**  <br>
 
-Data engineering projects, with their complex data sources and quality issues, pose challenges that the Waterfall model struggles to address due to its lack of flexibility and space for experimentation, limiting opportunities for learning and optimisation.  
+Data engineering projects, with their complex data sources and quality issues, pose challenges that the Waterfall model struggles to address due to its **lack of flexibility** and **space for experimentation**, limiting opportunities for learning and optimisation.  
+
+### Embracing Agile principles for data engineering
+
+**Benefits:**
+
+1. Faster iteration
+
+Agile methodologies facilitate rapid prototyping and testing, accelerating project progress and the discovery of effective solutions.
+
+2. Feedback loops
+
+Agile's emphasis on faster iteration is crucial for obtaining timely feedback on data models, enabling teams to refine and improve them.
+
+3. Enhanced collaboration
+
+Agile promotes effective collaboration among interdisciplinary data science teams, combining their respective skills and knowledge.
+
+4. Responsiveness to change
+
+Agile methodologies empower data science teams to quickly adapt to changes in project requirements, market trends, or data insights.
+
+5. Flexible planning
+
+Agile's flexible planning approach is essential in accommodating the often unpredictable nature of data engineering projects.  
 
 
- 
+### Agile Frameworks: Scrum & Kanban
+
+**Scrum**
+
+Scrum, a widely adopted Agile framework, emphasises efficient collaboration and streamlined workflows through specific roles and ceremonies. 
+
+One of its core ceremonies, the daily standup, is designed to be short and focused, with team members sharing what they've accomplished, what they're working on next, and any obstacles they're facing. 
+
+The scrum master plays a crucial role in facilitating these standups, ensuring that discussions stay on track, distractions are minimised, and team members adhere to the agenda.
+
+**Kanban**
+
+Kanban, a methodology emphasising visualising work and limiting work in progress (WIP), is particularly beneficial in environments focusing on bug fixes and testing.
+
+By visualising tasks on a Kanban board and setting WIP limits, data engineering teams can effectively manage complex workflows, prioritise tasks, and enhance project visibility. 
+
+This approach ensures that teams can focus on completing tasks efficiently while maintaining high-quality standards in bug fixing and testing processes.
 
