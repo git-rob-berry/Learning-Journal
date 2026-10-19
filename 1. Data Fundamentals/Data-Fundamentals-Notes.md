@@ -131,7 +131,7 @@ _Suppose BT wants to understand why customers leave:_
 - Suitable Learning courses for selected Employee based on comments and combined Review and Engagement score.
 - Employee satisfaction trends, possibility showing relation to employee turnover.
 
-## Key Concepts in this Module
+## Key Concepts
 
 - Data-Driven Enterprise – Organisations use data to make informed business decisions.  
 - Data Science Hierarchy of Needs – Reliable data collection, storage, and pipelines must exist before analytics, machine learning, and AI can succeed.  
@@ -223,7 +223,7 @@ Cost to environment, business, society.
 <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/6567ebf7-a431-4cb2-be2d-06d36464a450" />
 
 
-## The key takeaways from this session are as follows:
+## Key Concepts
 
 - Data quality encompasses dimensions like accuracy, integrity, consistency, timeliness, and reliability
 - Following data and metadata standards like FAIR principles, Dublin Core, etc. helps improve data findability, accessibility, interoperability, 
@@ -233,9 +233,10 @@ and reusability
 - Data compression and green data transfer practices aid sustainability and net-zero goals by reducing storage/bandwidth requirements
 - Implementing a robust data quality framework (e.g. DMAIC) supported by data governance is key for maintaining high data quality standards
 
-## eLearning - Automated Data Quality Management
+## eLearning (Part 2) 
 
 ### Goal
+**Automated Data Quality Management**
 >The aim of this activity is to gain hands-on experience with automated data quality management tools and techniques by researching, exploring, and documenting your findings in your learning journal.
 
 1. **Schema validation**  
@@ -476,3 +477,6 @@ _Example:_
 - The sprint retrospective is a valuable Scrum ceremony that fosters a culture of continuous learning, empowering data teams to openly discuss successes, failures, and implement insights for ongoing improvement
 
 - Integrating Agile, Lean, and Six Sigma principles provides a powerful toolkit for data professionals to navigate the complexities of data projects, enhance collaboration, and deliver high-impact solutions
+
+## Webinar
+
