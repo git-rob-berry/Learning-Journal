@@ -193,7 +193,7 @@ Naming Conventions:
 
 Important for compliance, data quality management and trust in data. 
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/d822f559-9dca-491e-ad37-fc744f4b3f3b" />  
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/d822f559-9dca-491e-ad37-fc744f4b3f3b" />  <br>
 
 
 <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/b016bf48-98ed-46a5-80c5-d239f53fe095" />  
