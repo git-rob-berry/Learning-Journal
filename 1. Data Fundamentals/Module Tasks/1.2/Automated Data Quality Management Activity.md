@@ -24,5 +24,3 @@ Document your findings, insights, and learning in your learning journal, includi
 - Best practices and recommendations for effective implementation and usage
 
 ## Appendix
-
-![DQM tools](image.png)
