@@ -24,3 +24,5 @@ Document your findings, insights, and learning in your learning journal, includi
 - Best practices and recommendations for effective implementation and usage
 
 ## Appendix
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/4e7a85f9-a973-47c0-ac88-1544731b7aed" />
