@@ -462,7 +462,7 @@ _Example:_
 
 6. Aligning technical specifications - With a comprehensive understanding of stakeholder requirements, more able to translate the business needs into clear technical specifications. 
 
-### Key learning from this module 
+### Summary
 
 - Agile methodologies offer greater flexibility and responsiveness to change compared to the linear Waterfall approach, making them well-suited for dynamic data science projects
 
