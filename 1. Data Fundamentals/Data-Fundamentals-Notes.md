@@ -364,6 +364,8 @@ One of its core ceremonies, the daily standup, is designed to be short and focus
 
 The scrum master plays a crucial role in facilitating these standups, ensuring that discussions stay on track, distractions are minimised, and team members adhere to the agenda.
 
+
+
 **Kanban**
 
 Kanban, a methodology emphasising visualising work and limiting work in progress (WIP), is particularly beneficial in environments focusing on bug fixes and testing.
@@ -371,4 +373,80 @@ Kanban, a methodology emphasising visualising work and limiting work in progress
 By visualising tasks on a Kanban board and setting WIP limits, data engineering teams can effectively manage complex workflows, prioritise tasks, and enhance project visibility. 
 
 This approach ensures that teams can focus on completing tasks efficiently while maintaining high-quality standards in bug fixing and testing processes.
+
+### Scrum roles 
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/37bdbe87-b261-4fc5-ab97-b7e7e6e5bf12" />  
+
+<br>  
+
+1. **Scrum Master** - Serves as a guardian of Agile principles, ensuring that the team adheres to the Scrum framework and removing any impediments that hinder progress. 
+
+> In the realm of data engineering, the scrum master acts as a shield, protecting the team from external distractions and noise, thereby enabling them to focus solely on delivering value.
+
+2. **Product owner** - Representing the voice of the customer, the product owner holds the responsibility of prioritising tasks and features based on business requirements and stakeholder needs. 
+
+> In data engineering projects, the product owner serves as a bridge between the technical team and organisational objectives, ensuring alignment and maximising value delivery.
+
+3. **Team members** - Comprising data scientists, engineers, and analysts, the team members collectively bring diverse skill sets and expertise to the project. 
+
+> Collaboration among team members is paramount, as they work together to tackle challenges, iterate on solutions, and deliver high-quality outcomes aligned with project objectives.
+
+
+### Scrum Ceremonies
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/a28114ab-c224-4192-bc1f-0f671f64173a" />
+
+<br><br>
+
+**Sprint retrospective: Learning from mistakes**  
+
+In the scrum framework, the sprint retrospective holds significant importance as it serves as a dedicated time for the team to reflect on their past performance, identify areas for improvement, and foster a culture of continuous learning and growth. This Scrum ceremony provides value in the following ways:
+
+
+**Learning from mistakes** - During the sprint retrospective, data engineering teams openly discuss successes and failures, extracting insights for improvement, this may involve reflecting on data pipeline performance, quality issues, or challenges encountered in data integration.  
+
+
+**Creating a supportive culture **- The sprint retrospective fosters an environment where data engineers feel safe to admit mistakes and share feedback, this may involve encouraging experimentation and learning without fear of judgement.  
+
+
+**Driving continuous improvement** - Active participation in the sprint retrospective enables data engineering teams to implement insights for ongoing improvement, this may include refining data processing strategies, optimising pipeline efficiency, and embracing collaboration.  
+### Applying Lean & Six Sigma principles
+
+**Lean**
+
+Lean is a continuous improvement methodology focused on eliminating waste and optimising processes.  
+
+_Following Lean principles can help to:_  
+
+- Identify and address data quality issues, such as missing values, outliers, or inconsistencies
+- Streamline data collection, pre-processing, and transformation workflows to improve efficiency
+- Avoid running resources that are not being efficiently utilised
+- Prevent data pipelines from being used for unnecessary tasks
+
+**Six Sigma**
+
+Six Sigma, on the other hand, is a data-driven approach aimed at improving quality by reducing variability and defects.  
+
+_Apply Six Sigma can help to:_  
+
+- Continuously monitor and optimise data pipelines and analytical models to maintain high performance
+- Establish rigorous testing and validation procedures to ensure the accuracy and reliability of data-driven insights
+- Implement statistical process control techniques to identify and address root causes of data quality issues
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/16a47322-6f7c-409a-a626-54ad8b68e52a" />
+<br><br>
+
+_Example:_    
+
+1. Define: The objective is clearly defined as reducing inaccuracies in transaction data.
+2. Measure: Current error rates are measured.
+3. Analyse: The root causes of data inaccuracies are identified (e.g., incorrect data entry, outdated information).
+4. Improve: Solutions are implemented, such as automated data validation checks and regular data quality audits.
+5. Control: New standards and controls are established to maintain the improved data quality level.
+6. Benefit: The structured approach leads to significantly reduced inaccuracies,
+
+### Effective stakeholder management 
+
+
 
