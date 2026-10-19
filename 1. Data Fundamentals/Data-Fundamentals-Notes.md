@@ -61,8 +61,9 @@ _Team/Role -	Value they bring to final insights_
 
 **Data Engineer**	- Collects, cleans, transforms, and stores data. Builds the pipelines that make reliable data available. Without them, there is no trustworthy data to analyse.
 
-**Software Engineer**	- Creates and maintains the applications, APIs, and systems that generate and consume data. Ensures data can flow between systems.
-Data Scientist - Uses statistics and machine learning to uncover patterns, make predictions, and answer complex questions. Turns data into advanced insights and forecasts.
+**Software Engineer**	- Creates and maintains the applications, APIs, and systems that generate and consume data. Ensures data can flow between systems.  
+
+**Data Scientist** - Uses statistics and machine learning to uncover patterns, make predictions, and answer complex questions. Turns data into advanced insights and forecasts.  
 
 **Data Analyst** - Explores data, creates dashboards and reports, identifies trends, and translates findings into business recommendations. Often presents the final insights to stakeholders.
 
