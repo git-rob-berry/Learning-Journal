@@ -267,8 +267,68 @@ Ensures data conforms to defined business rules or integrity constraints.
 *Example:* Checking if a customer's address matches across multiple data sources.
 
 
+# 1.3 - Introduction to managing data projects and products
+
+## eLearning
+
+### Agile
+
+Imagine building a new mobile app. With Agile, you would split this task into smaller, manageable pieces, or **sprints**.  
+
+Each sprint could involve designing a specific feature, coding it, testing it, and reviewing it with the customer.  
+
+This cycle repeats, gradually building up the product while incorporating customer feedback along the way.  
+
+Agile is a perfect fit when creating innovative products, where requirements are likely to evolve or when market trends change rapidly.  
+
+**Summary:**
+- You can think of Agile as a nimble speedboat, capable of rapid turns but requires constant steering.
+- It thrives on flexibility, frequent testing, and adaptation, making it ideal for a volatile environment.
+- However, Agile demands constant communication and can be unpredictable in terms of budget and time due to its flexible nature.
+
+<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/c46ea698-ddef-4948-81be-231d08884e63" />  
 
 
+### Waterfall
+
+Waterfall methodology is more **linear** - Consider constructing a bridge. The process is clear and sequential—there's planning, designing, building, testing, and finally, maintaining.  
+
+In the waterfall approach, software design follows the gathering of product requirements, followed by implementation and testing. Maintenance continues until the product is decommissioned, with each stage progressing in a sequential order.  
+
+Waterfall works well for projects with clear, static requirements where changes are minimal or costly, like in NASA's software for space missions where failure is not an option and requirements are meticulously defined. 
+
+**Summary:**
+- In contrast, Waterfall is like a freight train—once it's set in motion, it follows a predetermined path efficiently.
+- It's predictable and easy to manage, given its structured nature.
+- But this also means it lacks the ability to quickly respond to changes, which can be a downside in a fast-paced, evolving market.
+
+<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/5b764c47-e68f-4863-937f-ce4d1cf99043" />
 
 
+### Limitations of Waterfall
+ 
+1. **Difficulty accommodating change**  <br>
+
+When working on data projects, we often learn from the data, especially when exploring unstructured data. This means that our business and user requirements may change over time. Most waterfall approaches do not allow for the requirements to change which makes them ill-suited for typical data projects such as identifying trends and patterns in the data and responding to predictions that are being made in real time.  
+
+> Unsuitable if a project has changing requirements and lack of wholistic understanding at the beginning - _Agile breaks down large projects into sub-proects mean better scalability and flexibility._  
+
+2. **Lengthy development cycles**  <br>
+
+The sequential nature of Waterfall can result in lengthy development cycles, failing to keep pace with rapidly changing market conditions and user needs.     
+
+Many consumers of data products need to receive frequent updates and expect new functionality to be delivered rapidly, which Waterfall is not particularly suitable for.  
+
+3. **Lack of stakeholder feedback**  <br>
+
+The Waterfall model limits the ability to obtain timely feedback from stakeholders and end-users, increasing the risk of delivering a solution that no longer meets their needs.  
+
+> Stakeholders can become frustrated without regular feedback loops and input. - _Agile has increased end user engagement and opportunities for feedback._  
+
+4. **Challenges with data complexity**  <br>
+
+Data engineering projects, with their complex data sources and quality issues, pose challenges that the Waterfall model struggles to address due to its lack of flexibility and space for experimentation, limiting opportunities for learning and optimisation.  
+
+
+ 
 
