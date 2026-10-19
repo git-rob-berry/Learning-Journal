@@ -203,7 +203,7 @@ Important for compliance, data quality management and trust in data.
 
 Cost to environment, business, society.
 
-- Data compression to recue impact of data storage and transfer
+- Data compression to rescue impact of data storage and transfer
 - Advanced compression algorithms
 - Lower storage and bandwidth requirements
 - Lower energy consumption and carbon footprint
