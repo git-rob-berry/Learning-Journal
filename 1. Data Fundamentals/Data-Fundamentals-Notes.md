@@ -207,7 +207,7 @@ Cost to environment, business, society.
 - Advanced compression algorithms
 - Lower storage and bandwidth requirements
 - Lower energy consumption and carbon footprint
-- Green data transfer - Smart scheduling (e.g. At night for cheaper energy, do in in Sweden using green fuels)
+- Green data transfer - Smart scheduling (e.g. At night for cheaper energy, do processing in Sweden using green fuels)
 
 ### Semantic validity
 
