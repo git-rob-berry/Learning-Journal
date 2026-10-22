@@ -327,7 +327,7 @@ May include data engineers, scientists, analysts, software engineers, platform e
 - **Sprint review:** demonstrates completed work and gathers feedback.
 - **Sprint retrospective:** reviews the team process and agrees improvements.
 
-## Sprint Retrospective
+### Sprint Retrospective
 
 A retrospective helps teams learn from pipeline failures, quality issues, access delays, integration problems and incorrect assumptions. Actions may include better monitoring, stronger tests, clearer ownership and improved documentation.
 
@@ -353,7 +353,7 @@ Six Sigma reduces defects and variation through measurement, analysis, validatio
 | **Improve** | Add automated checks and quality reviews. |
 | **Control** | Monitor standards and ownership to sustain improvement. |
 
-## Effective Stakeholder Management
+### Effective Stakeholder Management
 
 <img width="450" height="auto" alt="Stakeholder identification and prioritisation" src="https://github.com/user-attachments/assets/fb616b16-5570-48aa-b62e-74744cfa5487" />
 
@@ -364,7 +364,7 @@ Six Sigma reduces defects and variation through measurement, analysis, validatio
 5. Run collaborative workshops and create user personas.
 6. Translate business needs into data sources, schemas, refresh schedules, quality rules, security requirements and acceptance criteria.
 
-## eLearning Summary
+### eLearning Summary
 
 - Agile offers more flexibility than Waterfall.
 - Scrum and Kanban structure collaboration and workflow management.
@@ -374,7 +374,7 @@ Six Sigma reduces defects and variation through measurement, analysis, validatio
 
 ---
 
-# Webinar Notes
+## Webinar Notes
 
 ## Learning Objectives
 
@@ -515,11 +515,11 @@ Define -> Measure -> Analyse -> Improve -> Control
 
 ---
 
-# CRISP-DM Lifecycle for Data Scientists
+## CRISP-DM Lifecycle for Data Scientists
 
 CRISP-DM stands for **Cross-Industry Standard Process for Data Mining**. It is a structured but iterative lifecycle for data science and data-mining projects.
 
-## The Six Phases
+### The Six Phases
 
 ### 1. Business Understanding
 
@@ -603,7 +603,7 @@ CRISP-DM defines the analytical lifecycle, while Agile manages incremental deliv
 
 ---
 
-# Key Learning Summary
+## Key Learning Summary
 
 - Waterfall can struggle with changing requirements, long cycles, limited feedback and data complexity.
 - Agile emphasises adaptability, iterative development and collaboration.
