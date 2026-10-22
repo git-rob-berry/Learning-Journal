@@ -1,147 +1,115 @@
+# Data Fundamentals Notes
+
+> **Level 5 Data Engineer Higher Apprenticeship**  
+> Notes covering data-driven organisations, data quality, and managing data projects and products.
+
+---
+
 # 1.1 Data-Driven Enterprise
 
-## eLearning 
+## eLearning Summary
 
-### Summary
+- Data may be **qualitative** (nominal, ordinal and binomial) or **quantitative** (discrete and continuous).
+- Data storage is measured in standardised units ranging from bits to yottabytes.
+- Common standards include JSON, CSV, XML, REST, the OpenAPI Specification and the AWS Well-Architected Framework.
+- Important regulations include GDPR, HIPAA and CCPA.
+- The principles of data stewardship include data quality, data governance and data ethics.
+- Good data engineering practices include scalability, reliability, security, performance optimisation and documentation.
+- The data lifecycle includes collection, cleaning, transformation, integration and visualisation.
+- Combining internal data with open, administrative, research and third-party data can enrich insight.
 
-  - There are two main categories of data types: qualitative (nominal, ordinal, binomial) and quantitative (discrete, continuous)
-  
-  - Data is measured using standardised units ranging from bits to yottabytes, with each larger unit being 1,024 times bigger than the previous one
-  
-  - Important technological standards for data engineering include data formats like JSON, CSV, XML, API standards like REST and OpenAPI Specification, and cloud computing standards like AWS Well-Architected Framework
-  
-  - Key regulations governing data include GDPR for data privacy, HIPAA for healthcare data security, and CCPA for consumer privacy rights
-  
-  - The three fundamental principles of data stewardship are data quality, data governance, and data ethics
-  
-  - Engineering best practices for data systems include scalability, reliability, security, performance optimisation, and documentation
-  
-  - The data management lifecycle involves collecting data from sources, cleaning/transforming data, integrating datasets, and visualising insights using tools like SQL, Power BI, and Tableau
-  
-  - Combining internal data with external open data, administrative data, research data, and third-party sources enriches insights for better decision-making
+## Webinar
 
+### Data Science Hierarchy of Needs
 
-## Webinar 
+<img width="500" height="auto" alt="Data science hierarchy of needs" src="https://github.com/user-attachments/assets/df68d14e-9adb-4f63-abe4-28c6171ccfcb" />
 
-### Data science hierarchy of needs
+Advanced analytics, machine learning and AI depend on strong foundations:
 
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/df68d14e-9adb-4f63-abe4-28c6171ccfcb" />
+1. Reliable data collection.
+2. Data movement and storage.
+3. Data cleaning and transformation.
+4. Data exploration and analysis.
+5. Machine learning and artificial intelligence.
 
+### The Five Vs of Big Data
 
-### The "5 Vs" of Big Data
+| Characteristic | Meaning |
+|---|---|
+| **Value** | How useful the data is. |
+| **Variety** | The different types, formats and sources of data. |
+| **Velocity** | How quickly data is generated and processed. |
+| **Veracity** | How accurate, reliable and trustworthy the data is. |
+| **Volume** | The amount of data created, stored and processed. |
 
-**Value** – how useful the data is.  
-**Variety** – the different types of data.  
-**Velocity** – how fast data is generated and processed.  
-**Veracity** – how reliable and accurate the data is.  
-**Volume** – how much data there is.  
+### Types of Data
 
-### Types of data
+#### Quantitative
 
-**Quantitative:** 
-- Discrete: Fits within a range, has a true end point.   
-- Continuous: No true end, limit, maximum.   
+- **Discrete:** Distinct, countable values.
+- **Continuous:** Any value within a range.
 
-**Qualitative:**  
-- Nominal  
-- Ordinal  
-- Binomial.  
+#### Qualitative
 
-### Adding value with data
+- **Nominal:** Categories with no inherent order.
+- **Ordinal:** Categories with a meaningful order.
+- **Binomial:** Two possible categories or outcomes.
 
-1) **Data wrangling** - Sourcing, collecting, preparing, cleaning, formatting. 
-2) **Data exploration** - Experimentation (with analysts), observation, modelling and evaluation.
-3) **Data operationalisation** - Model deployment, visualising results, defining strategies.
+### Adding Value with Data
 
-### Data teams 
+1. **Data wrangling:** sourcing, collecting, preparing, cleaning and formatting.
+2. **Data exploration:** experimentation, observation, modelling and evaluation.
+3. **Data operationalisation:** model deployment, visualisation and strategy development.
 
-_Team/Role -	Value they bring to final insights_
+### Data Teams
 
-**Chief Data Officer (CDO)** - Sets the data strategy, governance, quality standards, and ensures data is used to achieve business goals. Makes sure the organisation trusts and can use the insights.
+| Role | Value contributed |
+|---|---|
+| **Chief Data Officer** | Sets data strategy, governance and quality standards, ensuring data supports business goals. |
+| **Data Engineer** | Collects, cleans, transforms and stores data; builds reliable pipelines and platforms. |
+| **Software Engineer** | Creates applications, APIs and systems that generate and consume data. |
+| **Data Scientist** | Uses statistics and machine learning to find patterns and make predictions. |
+| **Data Analyst** | Creates reports and dashboards, identifies trends and communicates recommendations. |
 
-**Data Engineer**	- Collects, cleans, transforms, and stores data. Builds the pipelines that make reliable data available. Without them, there is no trustworthy data to analyse.
+### How the Roles Work Together
 
-**Software Engineer**	- Creates and maintains the applications, APIs, and systems that generate and consume data. Ensures data can flow between systems.  
+```text
+Software Engineer -> generates and captures data
+Data Engineer     -> moves, cleans and prepares data
+Data Analyst      -> explains what happened and why
+Data Scientist    -> predicts what may happen next
+Chief Data Officer -> ensures insights support decisions
+```
 
-**Data Scientist** - Uses statistics and machine learning to uncover patterns, make predictions, and answer complex questions. Turns data into advanced insights and forecasts.  
+### Simple BT Example
 
-**Data Analyst** - Explores data, creates dashboards and reports, identifies trends, and translates findings into business recommendations. Often presents the final insights to stakeholders.
+Suppose BT wants to understand why customers leave:
 
-### How they work together
+1. Software engineers ensure customer and billing systems record the required data.
+2. Data engineers combine customer, billing and network information.
+3. Data analysts identify trends, such as a relationship between repeated faults and churn.
+4. Data scientists develop a model predicting which customers may leave.
+5. The Chief Data Officer uses the insight to shape customer-retention strategy.
 
-- **Software Engineer** → generates and captures data from business systems
+### Data as a Product
 
-- **Data Engineer** → moves, cleans, and prepares the data
+<img width="400" height="auto" alt="Data as a product principles" src="https://github.com/user-attachments/assets/ea79650e-f97d-493e-8f9d-c6a0081541c0" />
 
-- **Data Analyst** → explains what happened and why
-
-- **Data Scientist** → predicts what might happen next
-
-- **Chief Data Officer** → ensures insights are used effectively to drive business decisions
-
-### Simple example (BT context)
-
-_Suppose BT wants to understand why customers leave:_
-
-- Software Engineers ensure customer and billing systems record the data.
-
-- Data Engineers build pipelines to combine customer, billing, and network data.
-
-- Data Analysts find that customers with repeated faults are more likely to leave.
-
-- Data Scientists create a model predicting which customers are at risk of leaving.
-
-- Chief Data Officer uses these insights to shape customer-retention strategy.
-
-### Data as a product
-
-  <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/ea79650e-f97d-493e-8f9d-c6a0081541c0" />
-
-### Task
-
-[Task PDF](https://github.com/git-rob-berry/Learning-Journal/blob/fd1ded58a432af1947e665e3fe731407897d3086/1.%20Data%20Fundamentals/Files/M1T1-Collaborate-ActBrief.pdf)
-
-**Approach**
-
-- Extract data from the CSV, SQL database, and JSON sources.
-- Standardise employee IDs, date formats, and field names across all datasets.
-- Clean the data by identifying missing values, duplicates, and inconsistent records.
-- Transform and merge the datasets into a single HR analytics dataset for reporting and analysis.
-
-**Challenges Faced**
-
-- Integrating data from three different formats (CSV, SQL, and JSON).
-- Resolving inconsistencies in employee IDs (e.g. 1 versus 001).
-- Converting different date formats into a common standard.
-- Ensuring data quality and consistency before combining datasets.
-- Limited sample data available for identifying stronger trends and correlations.
-
-**Key Insights**
-
-- Employee performance ratings were generally high, ranging from 3.8 to 4.5.
-- Engagement scores were also positive, ranging from 78 to 90.
-- Survey feedback highlighted strong collaboration and overall workplace satisfaction.
-- Requests for additional skill development opportunities suggest learning remains a key employee priority.
-- Combining performance, learning, and engagement data provides a more complete view of employee development and organisational performance.
-
-**Examples of new KPIs as a result of combining the data**
-
-- Create a KPI metric that looks at the overall percentage of employees who are on-track relative to the total headcount.
-- You can see if engagement has a relationship with performance.
-- Suitable Learning courses for selected Employee based on comments and combined Review and Engagement score.
-- Employee satisfaction trends, possibility showing relation to employee turnover.
+A useful data product should be valuable, discoverable, accessible to authorised users, understandable, trustworthy, secure and properly maintained.
 
 ## Key Concepts
 
-- Data-Driven Enterprise – Organisations use data to make informed business decisions.  
-- Data Science Hierarchy of Needs – Reliable data collection, storage, and pipelines must exist before analytics, machine learning, and AI can succeed.  
-- 5 Vs of Big Data – Volume, Velocity, Variety, Veracity, and Value describe key characteristics of data.   
-- Data Engineering Lifecycle – Data is collected, cleaned, explored, and transformed into actionable insights.   
-- Data Team Roles – Software Engineers create data, Data Engineers prepare it, Analysts explain it, Scientists predict outcomes, and the CDO sets strategy.  
-- Data as a Product – Data should be valuable, accessible, understandable, trustworthy, and secure.   
-- Decision Trees – A machine learning technique that uses a series of questions to classify or predict outcomes.  
-- Combining Data Sources – Integrating data from multiple systems provides richer insights and enables new KPIs and business value.  
+| Concept | Description |
+|---|---|
+| **Data-Driven Enterprise** | Uses trusted data to support decisions and objectives. |
+| **Hierarchy of Needs** | Reliable collection, storage and pipelines precede advanced analytics and AI. |
+| **Five Vs** | Volume, velocity, variety, veracity and value. |
+| **Data Engineering Lifecycle** | Collection, cleaning, transformation and delivery for analysis or operations. |
+| **Data as a Product** | Data is designed and maintained as a valuable, trustworthy and secure asset. |
+| **Decision Trees** | A machine-learning method using decision rules to classify or predict outcomes. |
+| **Combining Data Sources** | Integration can produce richer insight and new KPIs. |
 
+---
 
 # 1.2 Data Quality
 
@@ -149,457 +117,506 @@ _Suppose BT wants to understand why customers leave:_
 
 ### Goal
 
-> Recognise the core metrics, open standards, and data quality management strategies used in data engineering essential for ensuring data quality.
+> Recognise the core metrics, open standards and data-quality management strategies used in data engineering.
+
+### Data Quality Metrics: I ACT
+
+<img width="500" height="auto" alt="I ACT data quality metrics" src="https://github.com/user-attachments/assets/03f81569-a737-4e5c-89f2-85d241037e00" />
+
+- **Integrity**
+- **Accuracy**
+- **Consistency**
+- **Timeliness**
+
+### FAIR Data Standards
+
+<img width="250" height="auto" alt="FAIR data standards" src="https://github.com/user-attachments/assets/dc7c4a8c-65a2-4965-bd82-0f066d9b8a70" />
+
+| Principle | Meaning |
+|---|---|
+| **Findable** | Data and metadata can be located. |
+| **Accessible** | Authorised users can retrieve the data. |
+| **Interoperable** | Data can be exchanged and used across systems. |
+| **Reusable** | Data is documented and structured for future use. |
+
+### Naming Conventions
+
+<img width="450" height="auto" alt="Data naming conventions" src="https://github.com/user-attachments/assets/68c4fbaa-bd1c-479d-88d0-f8d041ea892b" />
+
+Good conventions should use meaningful, consistent names; avoid unexplained abbreviations; distinguish identifiers, measures and dates; and be documented in a data dictionary.
 
 ### Summary
 
-Metrics (I ACT):  
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/03f81569-a737-4e5c-89f2-85d241037e00" />
-
-FAIR Data Standards:  
-<img width="250" height="auto" alt="image" src="https://github.com/user-attachments/assets/dc7c4a8c-65a2-4965-bd82-0f066d9b8a70" />
-
-Naming Conventions:  
-<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/68c4fbaa-bd1c-479d-88d0-f8d041ea892b" />
-
-
-- Data quality metrics, such as **accuracy, integrity, consistency, and timeliness**, are crucial for ensuring data meets technical and business requirements  
-- Open standards and metadata play a vital role in promoting interoperability and data sharing across systems and organisations  
-- Navigating quality issues in common data formats like XML, CSV, and JSON is essential for seamless data exchange and integration  
-- Data quality management strategies, including **data profiling, validation, and monitoring,** are necessary for maintaining data accuracy and reliability  
-- Adhering to data protection regulations, such as GDPR, and implementing robust data governance frameworks are critical for responsible data handling  
-- Data testing methodologies, including **horizontal testing, historical analysis, rule-based testing, and statistical testing**, help identify and mitigate data quality issues  
-- Utilising data quality testing tools, frameworks, and manual testing techniques contributes to comprehensive data quality assurance  
+- Accuracy, integrity, consistency and timeliness determine whether data meets business and technical requirements.
+- Open standards and metadata improve interoperability and sharing.
+- XML, CSV and JSON quality issues must be managed.
+- Profiling, validation and monitoring help maintain quality.
+- Governance and data-protection controls support responsible handling.
+- Testing may include horizontal, historical, rule-based and statistical approaches.
 
 ## Webinar
 
-### JSON data quality
+### JSON Data Quality
 
-> Pretty Library in Python (a JSON validator) tidies up JSON data and nesting to make it more readable.
+> Pretty-printing makes JSON indentation and nesting easier to inspect.
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/e601f63b-34d3-4464-9b3b-6e7fd161f967" />
+<img width="400" height="auto" alt="JSON data quality example" src="https://github.com/user-attachments/assets/e601f63b-34d3-4464-9b3b-6e7fd161f967" />
 
+Checks may include valid syntax, JSON Schema validation, required properties, data types, allowed ranges, duplicate records and agreed key names.
 
-### Wrangling vs. Cleaning
+### Data Wrangling vs Data Cleaning
 
-- Data cleaning is compulsory for correct data, e.g. deal with missing values or duplicates. 
-- Data wrangling is transformation of raw data into structure for analysis, e.g. creating an age column from D.O.B information (dimension added for analysis). 
+| Data cleaning | Data wrangling |
+|---|---|
+| Corrects inaccurate, incomplete or duplicated data. | Restructures raw data for analysis. |
+| Example: removing duplicate employee records. | Example: deriving age from date of birth. |
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/10319b24-8ca4-4e97-9bb0-a2db3d7f4f41" />
+<img width="400" height="auto" alt="Data wrangling compared with cleaning" src="https://github.com/user-attachments/assets/10319b24-8ca4-4e97-9bb0-a2db3d7f4f41" />
 
-> Pandas allow vectorised operation to change data types.
+> Pandas supports vectorised operations for efficient column transformations and type conversion.
 
-### Data stewardship
+### Data Stewardship
 
-Important for compliance, data quality management and trust in data. 
+Data stewardship supports compliance, ownership, quality management, responsible handling, consistent definitions and appropriate access.
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/d822f559-9dca-491e-ad37-fc744f4b3f3b" />  <br>
+<img width="400" height="auto" alt="Data stewardship overview" src="https://github.com/user-attachments/assets/d822f559-9dca-491e-ad37-fc744f4b3f3b" />
 
+<br>
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/b016bf48-98ed-46a5-80c5-d239f53fe095" />  
-
+<img width="400" height="auto" alt="Data stewardship responsibilities" src="https://github.com/user-attachments/assets/b016bf48-98ed-46a5-80c5-d239f53fe095" />
 
 ### Sustainability
 
-Cost to environment, business, society.
+Ways to reduce environmental and business impact include:
 
-- Data compression to rescue impact of data storage and transfer
-- Advanced compression algorithms
-- Lower storage and bandwidth requirements
-- Lower energy consumption and carbon footprint
-- Green data transfer - Smart scheduling (e.g. At night for cheaper energy, do processing in Sweden using green fuels)
+- Compressing data.
+- Removing unnecessary duplication.
+- Deleting data that no longer needs to be retained.
+- Designing efficient pipelines.
+- Scheduling non-urgent processing appropriately.
+- Monitoring storage, network and compute usage.
 
-### Semantic validity
+### Semantic Validity
 
-- Ensuring data accurately represents the real-world situation.
-- Ensures data is meaningful. Describes how data connects and relates to each other (ERD).
+Semantic validity means that data accurately represents the real-world object, event or concept it describes.
 
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/1b66fc79-e427-44fa-a515-d3db1cfc2fbd" />
+<img width="500" height="auto" alt="Semantic validity and entity relationships" src="https://github.com/user-attachments/assets/1b66fc79-e427-44fa-a515-d3db1cfc2fbd" />
 
+### Data Quality Framework: DMAIC
 
-### Data quality framework (DMAIC)
+<img width="400" height="auto" alt="DMAIC data quality framework" src="https://github.com/user-attachments/assets/6567ebf7-a431-4cb2-be2d-06d36464a450" />
 
-
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/6567ebf7-a431-4cb2-be2d-06d36464a450" />
-
+| Phase | Purpose |
+|---|---|
+| **Define** | State the problem, objective and required outcome. |
+| **Measure** | Establish current quality or performance. |
+| **Analyse** | Investigate causes of defects or variation. |
+| **Improve** | Implement changes that address the causes. |
+| **Control** | Monitor the process and sustain improvements. |
 
 ## Key Concepts
 
-- Data quality encompasses dimensions like accuracy, integrity, consistency, timeliness, and reliability
-- Following data and metadata standards like FAIR principles, Dublin Core, etc. helps improve data findability, accessibility, interoperability, 
-and reusability
-- Data lineage tracking and use of unique identifiers enable transparent data management and enhance data integrity/compliance
-- Data wrangling, cleansing, and stewardship techniques help improve data quality
-- Data compression and green data transfer practices aid sustainability and net-zero goals by reducing storage/bandwidth requirements
-- Implementing a robust data quality framework (e.g. DMAIC) supported by data governance is key for maintaining high data quality standards
+- Data quality includes accuracy, integrity, consistency, timeliness and reliability.
+- FAIR standards improve findability, accessibility, interoperability and reusability.
+- Lineage and unique identifiers support transparency and integrity.
+- Cleaning, wrangling and stewardship improve trustworthiness.
+- Compression and efficient transfer reduce storage, bandwidth and energy needs.
+- DMAIC provides a structured improvement framework.
 
-## eLearning (Part 2) 
+## eLearning: Automated Data Quality Management
 
-### Goal
-**Automated Data Quality Management**
->The aim of this activity is to gain hands-on experience with automated data quality management tools and techniques by researching, exploring, and documenting your findings in your learning journal.
+### Schema Validation
 
-1. **Schema validation**  
-*What is it?*  
-Ensures data adheres to a predefined data model or schema.  
-*How does it do it?*  
-Maintains consistency by aligning data types with schema definitions.  
-*Example:* Validating a JSON file against a JSON schema.
+- **What:** Checks that data follows a predefined schema.
+- **How:** Compares field names, structures, types and requirements.
+- **Example:** Validating JSON against JSON Schema.
 
-2. **Syntax checking**  
-*What is it?*  
-Automates the detection of syntax errors in data files.  
-*How does it do it?*  
-Checks for missing or extra delimiters, incorrect field separators, or misplaced quotation marks.  
-*Example:* Scanning a CSV file for comma inconsistencies or missing line terminators.
+### Syntax Checking
 
-3. **Range verification**  
-*What is it?*  
-Checks if data values fall within specified ranges or constraints.  
-*How does it do it?*  
-Identifies out-of-range or invalid values based on predefined rules.  
-*Example:* Verifying that an age value is within a valid range (e.g., 0-120 years).
+- **What:** Detects structural errors.
+- **How:** Finds invalid separators, missing delimiters, unmatched brackets or misplaced quotation marks.
+- **Example:** Checking a CSV for inconsistent commas or line terminators.
 
-4. **Consistency checks**  
-*What is it?*  
-Detects inconsistencies within or across datasets.  
-*How does it do it?*  
-Ensures data conforms to defined business rules or integrity constraints.  
-*Example:* Checking if a customer's address matches across multiple data sources.
+### Range Verification
 
+- **What:** Checks values against accepted boundaries.
+- **How:** Flags, rejects or quarantines out-of-range values.
+- **Example:** Ensuring age is between 0 and 120.
 
-# 1.3 - Introduction to managing data projects and products
+### Consistency Checks
+
+- **What:** Finds contradictory values within or across datasets.
+- **How:** Compares records with business rules, reference data or related systems.
+- **Example:** Checking whether a customer address matches across systems.
+
+---
+
+# 1.3 Introduction to Managing Data Projects and Products
 
 ## eLearning
 
 ### Agile
 
-Imagine building a new mobile app. With Agile, you would split this task into smaller, manageable pieces, or **sprints**.  
+Agile divides a large project into smaller units called **sprints**. Each sprint can include design, development, testing, demonstration and feedback.
 
-Each sprint could involve designing a specific feature, coding it, testing it, and reviewing it with the customer.  
+- Flexible and adaptable.
+- Supports frequent testing and feedback.
+- Suited to uncertain or changing environments.
+- Requires regular communication.
+- Time and cost may be less predictable than under a fixed plan.
 
-This cycle repeats, gradually building up the product while incorporating customer feedback along the way.  
-
-Agile is a perfect fit when creating innovative products, where requirements are likely to evolve or when market trends change rapidly.  
-
-**Summary:**
-- You can think of Agile as a nimble speedboat, capable of rapid turns but requires constant steering.
-- It thrives on flexibility, frequent testing, and adaptation, making it ideal for a volatile environment.
-- However, Agile demands constant communication and can be unpredictable in terms of budget and time due to its flexible nature.
-
-<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/c46ea698-ddef-4948-81be-231d08884e63" />  
-
+<img width="300" height="auto" alt="Agile project management illustration" src="https://github.com/user-attachments/assets/c46ea698-ddef-4948-81be-231d08884e63" />
 
 ### Waterfall
 
-Waterfall methodology is more **linear** - Consider constructing a bridge. The process is clear and sequential—there's planning, designing, building, testing, and finally, maintaining.  
+Waterfall is sequential, normally progressing through requirements, design, implementation, testing, deployment and maintenance.
 
-In the waterfall approach, software design follows the gathering of product requirements, followed by implementation and testing. Maintenance continues until the product is decommissioned, with each stage progressing in a sequential order.  
+- Structured and predictable where requirements are stable.
+- Useful where changes are expensive or tightly controlled.
+- Less responsive to new information.
 
-Waterfall works well for projects with clear, static requirements where changes are minimal or costly, like in NASA's software for space missions where failure is not an option and requirements are meticulously defined. 
+<img width="300" height="auto" alt="Waterfall project management illustration" src="https://github.com/user-attachments/assets/5b764c47-e68f-4863-937f-ce4d1cf99043" />
 
-**Summary:**
-- In contrast, Waterfall is like a freight train—once it's set in motion, it follows a predetermined path efficiently.
-- It's predictable and easy to manage, given its structured nature.
-- But this also means it lacks the ability to quickly respond to changes, which can be a downside in a fast-paced, evolving market.
+## Limitations of Waterfall
 
-<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/5b764c47-e68f-4863-937f-ce4d1cf99043" />
+1. **Difficulty accommodating change:** requirements may evolve as teams explore data.
+2. **Lengthy development cycles:** value may be delayed until the end of the project.
+3. **Limited stakeholder feedback:** problems may be discovered late.
+4. **Data complexity:** changing sources, schemas and quality issues require experimentation.
 
+## Benefits of Agile in Data Engineering
 
-### Limitations of Waterfall
- 
-1. **Difficulty accommodating change**  <br>
+1. Faster iteration and prototyping.
+2. Regular feedback on models, pipelines and dashboards.
+3. Collaboration across engineering, analysis, science and product roles.
+4. Responsiveness to new sources, quality problems and changing priorities.
+5. Flexible planning around the highest-value work.
 
-When working on data projects, we often learn from the data, especially when exploring unstructured data. This means that our business and user requirements may change over time. Most waterfall approaches **do not allow for the requirements to change** which makes them ill-suited for typical data projects such as identifying trends and patterns in the data and responding to predictions that are being made in real time.  
+## Agile Frameworks: Scrum and Kanban
 
-> Unsuitable if a project has changing requirements and lack of wholistic understanding at the beginning - _Agile breaks down large projects into sub-proects mean better scalability and flexibility._  
+### Scrum
 
-2. **Lengthy development cycles**  <br>
+Scrum uses defined roles, events and time-boxed sprints. Daily stand-ups cover completed work, planned work and blockers.
 
-The sequential nature of Waterfall can result in lengthy development cycles, failing to keep pace with rapidly changing market conditions and user needs.     
+### Kanban
 
-Many consumers of data products need to receive **frequent updates** and expect new functionality to be delivered rapidly, which Waterfall is not particularly suitable for.  
+Kanban visualises work, limits work in progress, manages flow and exposes bottlenecks. It can suit ongoing support, testing and pipeline maintenance.
 
-3. **Lack of stakeholder feedback**  <br>
+## Scrum Roles
 
-The Waterfall model limits the ability to obtain **timely feedback** from stakeholders and end-users, increasing the risk of delivering a solution that **no longer meets their needs**.  
+<img width="400" height="auto" alt="Scrum team roles" src="https://github.com/user-attachments/assets/37bdbe87-b261-4fc5-ab97-b7e7e6e5bf12" />
 
-> Stakeholders can become frustrated without regular feedback loops and input. - _Agile has increased end user engagement and opportunities for feedback._  
+### Scrum Master
 
-4. **Challenges with data complexity**  <br>
+Facilitates Scrum, helps remove blockers, encourages improvement and protects the team from unnecessary disruption.
 
-Data engineering projects, with their complex data sources and quality issues, pose challenges that the Waterfall model struggles to address due to its **lack of flexibility** and **space for experimentation**, limiting opportunities for learning and optimisation.  
+### Product Owner
 
-### Embracing Agile principles for data engineering
+Represents stakeholder needs, prioritises the backlog, clarifies value and accepts completed work.
 
-**Benefits:**
+### Team Members
 
-1. Faster iteration
+May include data engineers, scientists, analysts, software engineers, platform engineers and testers.
 
-Agile methodologies facilitate rapid prototyping and testing, accelerating project progress and the discovery of effective solutions.
+## Scrum Ceremonies
 
-2. Feedback loops
+<img width="500" height="auto" alt="Scrum ceremonies and events" src="https://github.com/user-attachments/assets/a28114ab-c224-4192-bc1f-0f671f64173a" />
 
-Agile's emphasis on faster iteration is crucial for obtaining timely feedback on data models, enabling teams to refine and improve them.
+- **Sprint planning:** agrees the goal, selected stories, dependencies and capacity.
+- **Daily stand-up:** coordinates progress and identifies blockers.
+- **Sprint review:** demonstrates completed work and gathers feedback.
+- **Sprint retrospective:** reviews the team process and agrees improvements.
 
-3. Enhanced collaboration
+## Sprint Retrospective
 
-Agile promotes effective collaboration among interdisciplinary data science teams, combining their respective skills and knowledge.
+A retrospective helps teams learn from pipeline failures, quality issues, access delays, integration problems and incorrect assumptions. Actions may include better monitoring, stronger tests, clearer ownership and improved documentation.
 
-4. Responsiveness to change
+## Applying Lean and Six Sigma
 
-Agile methodologies empower data science teams to quickly adapt to changes in project requirements, market trends, or data insights.
+### Lean
 
-5. Flexible planning
+Lean removes waste and improves flow. In data engineering this can mean reducing duplication, unnecessary processing, waiting and inefficient hand-offs.
 
-Agile's flexible planning approach is essential in accommodating the often unpredictable nature of data engineering projects.  
+### Six Sigma
 
+Six Sigma reduces defects and variation through measurement, analysis, validation and control.
 
-### Agile Frameworks: Scrum & Kanban
+<img width="400" height="auto" alt="Lean and Six Sigma principles" src="https://github.com/user-attachments/assets/16a47322-6f7c-409a-a626-54ad8b68e52a" />
 
-**Scrum**
+### DMAIC Example
 
-Scrum, a widely adopted Agile framework, emphasises efficient collaboration and streamlined workflows through specific roles and ceremonies. 
+| Stage | Example |
+|---|---|
+| **Define** | Reduce inaccuracies in transaction data. |
+| **Measure** | Establish the current error rate. |
+| **Analyse** | Identify causes such as incorrect entry or outdated information. |
+| **Improve** | Add automated checks and quality reviews. |
+| **Control** | Monitor standards and ownership to sustain improvement. |
 
-One of its core ceremonies, the daily standup, is designed to be short and focused, with team members sharing what they've accomplished, what they're working on next, and any obstacles they're facing. 
+## Effective Stakeholder Management
 
-The scrum master plays a crucial role in facilitating these standups, ensuring that discussions stay on track, distractions are minimised, and team members adhere to the agenda.
+<img width="450" height="auto" alt="Stakeholder identification and prioritisation" src="https://github.com/user-attachments/assets/fb616b16-5570-48aa-b62e-74744cfa5487" />
 
+1. Identify and prioritise stakeholders by influence, interest and impact.
+2. Capture requirements using concise, user-centred stories.
+3. Select communication channels appropriate to the interaction.
+4. Use interviews and observation to understand goals and pain points.
+5. Run collaborative workshops and create user personas.
+6. Translate business needs into data sources, schemas, refresh schedules, quality rules, security requirements and acceptance criteria.
 
+## eLearning Summary
 
-**Kanban**
+- Agile offers more flexibility than Waterfall.
+- Scrum and Kanban structure collaboration and workflow management.
+- Lean removes waste; Six Sigma reduces variation and defects.
+- Stakeholder engagement aligns products with user and business needs.
+- Retrospectives support continuous improvement.
 
-Kanban, a methodology emphasising visualising work and limiting work in progress (WIP), is particularly beneficial in environments focusing on bug fixes and testing.
+---
 
-By visualising tasks on a Kanban board and setting WIP limits, data engineering teams can effectively manage complex workflows, prioritise tasks, and enhance project visibility. 
+# Webinar Notes
 
-This approach ensures that teams can focus on completing tasks efficiently while maintaining high-quality standards in bug fixing and testing processes.
+## Learning Objectives
 
-### Scrum roles 
+- Explain Waterfall limitations in data engineering.
+- Explain how Agile supports adaptability and collaboration.
+- Identify Lean and Six Sigma practices for continuous improvement.
+- Evaluate stakeholder collaboration approaches.
+- Explain how these methods support a data-driven culture.
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/37bdbe87-b261-4fc5-ab97-b7e7e6e5bf12" />  
+## Waterfall
 
-<br>  
+- Traditional, sequential and linear.
+- Predictable when requirements are stable.
+- Inflexible when conditions change.
 
-1. **Scrum Master** - Serves as a guardian of Agile principles, ensuring that the team adheres to the Scrum framework and removing any impediments that hinder progress. 
+<img width="300" height="auto" alt="Waterfall delivery process" src="https://github.com/user-attachments/assets/942a5b3e-b948-481a-a21a-f2f1a7d4a152" />
 
-> In the realm of data engineering, the scrum master acts as a shield, protecting the team from external distractions and noise, thereby enabling them to focus solely on delivering value.
+## Agile
 
-2. **Product owner** - Representing the voice of the customer, the product owner holds the responsibility of prioritising tasks and features based on business requirements and stakeholder needs. 
+- Iterative and collaborative.
+- Supports adaptation and regular feedback.
+- Delivers work in smaller increments.
 
-> In data engineering projects, the product owner serves as a bridge between the technical team and organisational objectives, ensuring alignment and maximising value delivery.
+<img width="300" height="auto" alt="Agile iterative delivery process" src="https://github.com/user-attachments/assets/c89331e9-7656-4a56-86fd-3da56863ceff" />
 
-3. **Team members** - Comprising data scientists, engineers, and analysts, the team members collectively bring diverse skill sets and expertise to the project. 
+## Agile Frameworks
 
-> Collaboration among team members is paramount, as they work together to tackle challenges, iterate on solutions, and deliver high-quality outcomes aligned with project objectives.
+### Scrum
 
+- Lightweight and practical.
+- Uses time-boxed sprints.
+- Orders the backlog by priority.
+- Estimates relative effort.
+- Often managed in Jira.
 
-### Scrum Ceremonies
+<img width="482" height="245" alt="Scrum teams and time-boxed iterations" src="https://github.com/user-attachments/assets/9c3e7323-5485-4bc2-a26f-876257e37d44" />
 
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/a28114ab-c224-4192-bc1f-0f671f64173a" />
+### Kanban
 
-<br><br>
+- Visualises work.
+- Limits work in progress.
+- Exposes bottlenecks.
+- Supports continuous delivery.
 
-**Sprint retrospective: Learning from mistakes**  
+## Sprints
 
-In the scrum framework, the sprint retrospective holds significant importance as it serves as a dedicated time for the team to reflect on their past performance, identify areas for improvement, and foster a culture of continuous learning and growth. This Scrum ceremony provides value in the following ways:
+A sprint usually lasts two to four weeks, starts with planning, pursues a goal, delivers a usable increment and ends with a review and retrospective.
 
+<img width="400" height="auto" alt="Sprint planning and delivery lifecycle" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
 
-**Learning from mistakes** - During the sprint retrospective, data engineering teams openly discuss successes and failures, extracting insights for improvement, this may involve reflecting on data pipeline performance, quality issues, or challenges encountered in data integration.  
-
-
-**Creating a supportive culture **- The sprint retrospective fosters an environment where data engineers feel safe to admit mistakes and share feedback, this may involve encouraging experimentation and learning without fear of judgement.  
-
-
-**Driving continuous improvement** - Active participation in the sprint retrospective enables data engineering teams to implement insights for ongoing improvement, this may include refining data processing strategies, optimising pipeline efficiency, and embracing collaboration.  
-### Applying Lean & Six Sigma principles
-
-**Lean**
-
-Lean is a continuous improvement methodology focused on eliminating waste and optimising processes.  
-
-_Following Lean principles can help to:_  
-
-- Identify and address data quality issues, such as missing values, outliers, or inconsistencies
-- Streamline data collection, pre-processing, and transformation workflows to improve efficiency
-- Avoid running resources that are not being efficiently utilised
-- Prevent data pipelines from being used for unnecessary tasks
-
-**Six Sigma**
-
-Six Sigma, on the other hand, is a data-driven approach aimed at improving quality by reducing variability and defects.  
-
-_Apply Six Sigma can help to:_  
-
-- Continuously monitor and optimise data pipelines and analytical models to maintain high performance
-- Establish rigorous testing and validation procedures to ensure the accuracy and reliability of data-driven insights
-- Implement statistical process control techniques to identify and address root causes of data quality issues
-
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/16a47322-6f7c-409a-a626-54ad8b68e52a" />
-<br><br>
-
-_Example:_    
-
-1. Define: The objective is clearly defined as reducing inaccuracies in transaction data.
-2. Measure: Current error rates are measured.
-3. Analyse: The root causes of data inaccuracies are identified (e.g., incorrect data entry, outdated information).
-4. Improve: Solutions are implemented, such as automated data validation checks and regular data quality audits.
-5. Control: New standards and controls are established to maintain the improved data quality level.
-6. Benefit: The structured approach leads to significantly reduced inaccuracies,
-
-### Effective stakeholder management 
-
-1. **Stakeholder ID and prioritisation**  
-<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/fb616b16-5570-48aa-b62e-74744cfa5487" />  
-
-2. **User-centric requirements capture** - Utilise concise, human-centric user stories to capture stakeholder needs and ensure data solutions are aligned with end-user requirements
-
-3. **Effective communication channels** - The director carefully selected the most appropriate communication channels for different types of interactions. _E.g. For routine updates, email proved effective, while complex discussions were better suited for in-person meetings or virtual workshops._
-
-4. **Gathering insights through interviews and observations** - Delve deeper into user needs, conducted structured interviews with users and stakeholders. Observe daily workflows and pain points first hand.
-
-5. Collaborative workshops and personas - Organise collaborative workshops, bringing together cross-functional teams to discuss and refine requirements. Created detailed user personas, capturing the goals, behaviours, and pain points of key stakeholder groups.
-
-6. Aligning technical specifications - With a comprehensive understanding of stakeholder requirements, more able to translate the business needs into clear technical specifications. 
-
-### Summary
-
-- Agile methodologies offer greater flexibility and responsiveness to change compared to the linear Waterfall approach, making them well-suited for dynamic data science projects
-
-- Scrum and Kanban provide structured Agile frameworks that empower data teams to collaborate effectively, manage workflows, and continuously improve their processes
-
-- Lean principles focus on eliminating waste and optimising processes, while Six Sigma aims to reduce variability and defects - combining these approaches can significantly enhance data quality and project efficiency
-
-- Comprehensive stakeholder engagement, through methods like user stories, interviews, and collaborative workshops, is crucial for aligning data solutions with the needs of end-users and business stakeholders
-
-- Effective communication and translation of business requirements into technical specifications enable data teams to position themselves as strategic partners within the organisation, driving sustainable, data-driven transformation
-
-- The sprint retrospective is a valuable Scrum ceremony that fosters a culture of continuous learning, empowering data teams to openly discuss successes, failures, and implement insights for ongoing improvement
-
-- Integrating Agile, Lean, and Six Sigma principles provides a powerful toolkit for data professionals to navigate the complexities of data projects, enhance collaboration, and deliver high-impact solutions
-
-## Webinar
-
-### Learning Objectives
-
-- List the limitations of the Waterfall model in the context of data engineering projects 
-- Explain how Agile principles and frameworks can foster adaptability and collaboration
-- Identify which Lean and Six Sigma practices can drive continuous improvement
-- Evaluate approaches to collaborating with diverse stakeholders in a way that aligns data-driven initiatives with business objectives
-- Argue how a data-driven culture can be championed within your organisation by leveraging the synergies between Agile, Lean, and Six Sigma approaches
-
-### Waterfall
-
-What is it? - Traditional, sequential, linear project management. Has distinct phases.  
-Pros - Fixed, predictable.  
-Cons - Inflexible to changing conditions, 14% success rate, unsuitable for dynamic data projects. Lengthy cycles. Lack of stakeholder feedback.  
-<img width="300" height="auto" alt="waterfall" src="https://github.com/user-attachments/assets/942a5b3e-b948-481a-a21a-f2f1a7d4a152" />
-<br><br>
-
-### Agile
-
-What is it? - Methodology (not a tool) for flexible project management. Kanban and Scrum frameworks.  
-Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and collaborative. Iterative, small chunks of focus/work (max 3 weeks each sprint).  
-<img width="300" height="auto" alt="agile" src="https://github.com/user-attachments/assets/c89331e9-7656-4a56-86fd-3da56863ceff" />
-
-### Agile Frameworks
-
-1) Scrum
-   - Lightweight and practical methodology
-   - Waterfall uses MS Project, Scrum uses Jira.
-   - Often sort tasks by priority, estimating relative effort.
-  
-<img width="482" height="245" alt="image" src="https://github.com/user-attachments/assets/9c3e7323-5485-4bc2-a26f-876257e37d44" />
-<br><br>
-  
-2) Kanban
-   - Manages complex workflows
-   - Focuses on visualisation, limiting work in progress tasks (WIP) and enhancing data visibility.
-  
-### Sprints
-
-- Chunks of work with fixed-time iterations between 2 and 4 weeks in length
-- Starts with planning, ends with retrospective
-- Sprint produces a demo of a working
-
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
-<br>
-<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/e800adb8-38d4-44c4-9cff-dfa6d41b500f" />
 <br>
 
+<img width="450" height="auto" alt="Iterative sprint delivery compared with annual delivery" src="https://github.com/user-attachments/assets/e800adb8-38d4-44c4-9cff-dfa6d41b500f" />
 
-### User Stories
+## User Stories
 
-<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/874b7ddb-1644-40e1-ae62-1a50484b61c8" />
-<br><br>
+<img width="300" height="auto" alt="Example Agile user story" src="https://github.com/user-attachments/assets/874b7ddb-1644-40e1-ae62-1a50484b61c8" />
 
-Consider: Specificity, Acceptance Criteria, User Perspective & Objectives.   
+A user story should identify the user, required capability, expected value and acceptance criteria.
 
-Ensure User stories follow invest:  
+### INVEST Criteria
 
-<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/8746f6c3-51e9-472e-94bc-cb1f3789035c" />
-<br><br>
+<img width="300" height="auto" alt="INVEST criteria for user stories" src="https://github.com/user-attachments/assets/8746f6c3-51e9-472e-94bc-cb1f3789035c" />
 
-User story checklist:  
+| Letter | Meaning |
+|---|---|
+| **I** | Independent |
+| **N** | Negotiable |
+| **V** | Valuable |
+| **E** | Estimable |
+| **S** | Small |
+| **T** | Testable |
 
-<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/cb6b41d2-ae30-4146-8e37-f03e643bf4ee" />
-<br><br>
+### User Story Checklist
 
-Template user story:  
-<img width="350" height="416" alt="image" src="https://github.com/user-attachments/assets/06550f65-481c-496e-8e0a-809502ec7009" />
-<br><br>
+<img width="300" height="auto" alt="Agile user story checklist" src="https://github.com/user-attachments/assets/cb6b41d2-ae30-4146-8e37-f03e643bf4ee" />
 
-Epic User Stories - An example:  
+- Keep it short and simple.
+- Write from the user's perspective.
+- Make the benefit clear.
+- Describe one capability.
+- Agree the story collaboratively.
+- Use acceptance criteria to define the minimum acceptable outcome.
 
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/9604882e-0418-4f3b-b541-3252b22f604c" />
-<br><br>
+### User Story Template
 
-### Integrating Lean & Six Signma
+<img width="350" height="416" alt="User story template" src="https://github.com/user-attachments/assets/06550f65-481c-496e-8e0a-809502ec7009" />
 
-Six Sigma - Waste elimination.  
+```text
+As a [type of user],
+I want [capability],
+so that [value or benefit].
+```
 
-Lean - Identify waste, increase efficiency, quality and competitiveness.  
+### Epic User Stories
 
-<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/45bc6947-f850-4962-9e3e-be1a1d9e701a" />
-<br><br>
+<img width="400" height="auto" alt="Epic with related user stories and acceptance criteria" src="https://github.com/user-attachments/assets/9604882e-0418-4f3b-b541-3252b22f604c" />
 
-Lean applied to software development:  
-<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/e1b55b80-8c0a-4394-9b18-b79895b610c4" />
-<br><br>
+An epic is a large user story that groups several related stories.
 
-Combining Lean + Six Sigma = DMAIC:  
-<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/f257243d-0ae4-4b8e-b97f-b3e8cd00b18a" />
-<br><br>
+## Integrating Lean and Six Sigma
 
-Agile vs. Lean:  
-<img width="354" height="268" alt="image" src="https://github.com/user-attachments/assets/5775a48d-430f-4bf9-b961-9fceaa509974" />
-<br><br>
+<img width="300" height="auto" alt="Lean methodology principles" src="https://github.com/user-attachments/assets/45bc6947-f850-4962-9e3e-be1a1d9e701a" />
 
-A hybrid approach:  
-<img width="616" height="333" alt="image" src="https://github.com/user-attachments/assets/ae29b4b1-99ba-4433-98a8-4cec32006b28" />
-<br><br>
+### Lean Applied to Software Development
 
-CRISP-DM Lifecycle for data scientists (look up more)  
+<img width="400" height="auto" alt="Lean software development principles" src="https://github.com/user-attachments/assets/e1b55b80-8c0a-4394-9b18-b79895b610c4" />
 
-### Key Concepts
+Lean software development removes non-value work, reduces delays, builds quality into the process and avoids unnecessary features or processing.
 
-- Waterfall project management struggles with rapidly changing 
-requirements, lengthy development cycles, lack of stakeholder 
-feedback, and challenges with data complexity
-- Agile principles emphasise adaptability, iterative development, and 
-close collaboration
-- Scrum is a popular Agile framework that introduces specific roles 
-(Scrum Master, Product Owner, Team Members) and ceremonies 
-(Sprint Planning, Daily Standup, Sprint Review, Retrospectives
-- The Scrum Master embodies servant leadership and is responsible for 
-facilitating, improving, protecting, rewarding, and educating the Scrum 
-team
-- The Lean methodology is built upon five core principles: Continuous 
-Improvement, "Kaizen", "Genchi Genbutsu", Respect, and Teamwork
-- The DMAIC (Define, Measure, Analyze, Improve, Control) framework 
-combines Lean and Six Sigma principles
-- The Minimum Viable Product (MVP) is a strategy for delivering the 
-minimum set of features to validate assumptions and gather feedback
+### Lean and Six Sigma: DMAIC
+
+<img width="500" height="auto" alt="DMAIC Lean Six Sigma process" src="https://github.com/user-attachments/assets/f257243d-0ae4-4b8e-b97f-b3e8cd00b18a" />
+
+```text
+Define -> Measure -> Analyse -> Improve -> Control
+```
+
+### Agile vs Lean
+
+<img width="354" height="268" alt="Comparison of Agile and Lean" src="https://github.com/user-attachments/assets/5775a48d-430f-4bf9-b961-9fceaa509974" />
+
+| Agile | Lean |
+|---|---|
+| Responds to changing user needs. | Removes waste and improves flow. |
+| Delivers working increments. | Optimises the end-to-end process. |
+| Uses feedback and iteration. | Uses continuous improvement. |
+| Manages uncertainty. | Improves efficiency and value. |
+
+### Hybrid Approach
+
+<img width="616" height="333" alt="Hybrid Waterfall Agile and Lean approach" src="https://github.com/user-attachments/assets/ae29b4b1-99ba-4433-98a8-4cec32006b28" />
+
+- Agile supports iterative delivery.
+- Lean reduces waste and improves flow.
+- Six Sigma supports measurement and defect reduction.
+- Formal governance supplies approval, assurance and compliance controls.
+
+---
+
+# CRISP-DM Lifecycle for Data Scientists
+
+CRISP-DM stands for **Cross-Industry Standard Process for Data Mining**. It is a structured but iterative lifecycle for data science and data-mining projects.
+
+## The Six Phases
+
+### 1. Business Understanding
+
+- Define the business objective.
+- Identify stakeholders and users.
+- Understand constraints, risks and dependencies.
+- Define business and analytical success criteria.
+- Translate the business problem into a data objective.
+- Produce an initial project plan.
+
+### 2. Data Understanding
+
+- Identify suitable sources.
+- Collect initial data.
+- Describe fields, formats and relationships.
+- Explore distributions and patterns.
+- Identify missing values, anomalies and quality issues.
+- Assess whether the data can answer the business question.
+
+Possible outputs include a source inventory, data dictionary, exploratory analysis and quality report.
+
+### 3. Data Preparation
+
+- Select relevant records and attributes.
+- Clean missing or invalid values.
+- Resolve duplicates.
+- Standardise formats and identifiers.
+- Join multiple sources.
+- Create derived features.
+- Reshape or aggregate data.
+- Document transformations and lineage.
+- Create training, validation and test datasets where appropriate.
+
+### 4. Modelling
+
+- Select modelling techniques.
+- Define a testing approach.
+- Train candidate models.
+- Tune model parameters.
+- Compare alternatives.
+- Record assumptions and limitations.
+
+Techniques may include decision trees, regression, classification, clustering, forecasting and anomaly detection.
+
+### 5. Evaluation
+
+- Review model performance.
+- Compare results with success criteria.
+- Check for bias, leakage and inappropriate assumptions.
+- Confirm that the output is understandable and actionable.
+- Review risks and unintended consequences.
+- Decide whether to deploy, revise or stop.
+
+A technically accurate model may still fail to deliver useful business value.
+
+### 6. Deployment
+
+Deployment may involve:
+
+- Publishing a dashboard or report.
+- Integrating a model into an application.
+- Exposing predictions through an API.
+- Scheduling a batch pipeline.
+- Adding monitoring and alerts.
+- Training users.
+- Producing technical and user documentation.
+
+Ongoing plans should cover monitoring, retraining, ownership, support, security, performance, feedback and retirement.
+
+## Why CRISP-DM Is Iterative
+
+- Poor quality may send the team from preparation back to understanding.
+- Weak model performance may require additional features or sources.
+- Evaluation may reveal unclear original success criteria.
+- Deployment feedback may generate new business questions.
+- Changes in operational data may require retraining and re-evaluation.
+
+## Relationship with Agile
+
+CRISP-DM defines the analytical lifecycle, while Agile manages incremental delivery. Separate sprints may cover business understanding, profiling, preparation, modelling, evaluation, deployment and monitoring. Feedback becomes new backlog items and acceptance criteria.
+
+---
+
+# Key Learning Summary
+
+- Waterfall can struggle with changing requirements, long cycles, limited feedback and data complexity.
+- Agile emphasises adaptability, iterative development and collaboration.
+- Scrum defines roles and ceremonies for incremental delivery.
+- Lean removes waste and improves flow.
+- Six Sigma reduces variation and defects.
+- DMAIC means Define, Measure, Analyse, Improve and Control.
+- User stories express requirements from the user's perspective.
+- Epics group related stories under a larger objective.
+- A Minimum Viable Product tests assumptions with the minimum useful functionality.
+- CRISP-DM covers business understanding, data understanding, preparation, modelling, evaluation and deployment.
+- Agile and CRISP-DM can be combined to deliver analytical value incrementally.
+
 
 
 
