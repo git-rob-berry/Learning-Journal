@@ -524,7 +524,7 @@ Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and col
 
 <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
 <br>
-<img width="400" height="708" alt="image" src="https://github.com/user-attachments/assets/e800adb8-38d4-44c4-9cff-dfa6d41b500f" />
+<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/e800adb8-38d4-44c4-9cff-dfa6d41b500f" />
 <br>
 
 
@@ -553,5 +553,36 @@ Epic User Stories - An example:
 
 <img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/9604882e-0418-4f3b-b541-3252b22f604c" />
 <br><br>
+
+### Integrating Lean & Six Signma
+
+Six Sigma - Waste elimination.  
+
+Lean - Identify waste, increase efficiency, quality and competitiveness.  
+
+<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/45bc6947-f850-4962-9e3e-be1a1d9e701a" />
+<br><br>
+
+Lean applied to software development:  
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/e1b55b80-8c0a-4394-9b18-b79895b610c4" />
+<br><br>
+
+Combining Lean + Six Sigma = DMAIC:  
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/f257243d-0ae4-4b8e-b97f-b3e8cd00b18a" />
+<br><br>
+
+Agile vs. Lean:  
+<img width="354" height="268" alt="image" src="https://github.com/user-attachments/assets/5775a48d-430f-4bf9-b961-9fceaa509974" />
+<br><br>
+
+A hybrid approach:  
+<img width="616" height="333" alt="image" src="https://github.com/user-attachments/assets/ae29b4b1-99ba-4433-98a8-4cec32006b28" />
+<br><br>
+
+CRISP-DM Lifecycle for data scientists (look up more)  
+
+
+
+
 
 
