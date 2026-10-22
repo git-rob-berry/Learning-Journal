@@ -498,7 +498,7 @@ Cons - Inflexible to changing conditions, 14% success rate, unsuitable for dynam
 
 ### Agile
 
-What is it? - Methodology (not a tool) for flexible project management. Kanban and Scrum frameworks.
+What is it? - Methodology (not a tool) for flexible project management. Kanban and Scrum frameworks.  
 Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and collaborative. Iterative, small chunks of focus/work (max 3 weeks each sprint).  
 <img width="300" height="auto" alt="agile" src="https://github.com/user-attachments/assets/c89331e9-7656-4a56-86fd-3da56863ceff" />
 
@@ -532,12 +532,12 @@ Consider: Specificity, Acceptance Criteria, User Perspective & Objectives.
 
 Ensure User stories follow invest:  
 
-<img width="250" height="auto" alt="image" src="https://github.com/user-attachments/assets/8746f6c3-51e9-472e-94bc-cb1f3789035c" />
+<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/8746f6c3-51e9-472e-94bc-cb1f3789035c" />
 <br><br>
 
 User story checklist:  
 
-<img width="150" height="auto" alt="image" src="https://github.com/user-attachments/assets/cb6b41d2-ae30-4146-8e37-f03e643bf4ee" />
+<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/cb6b41d2-ae30-4146-8e37-f03e643bf4ee" />
 <br><br>
 
 Epic User Stories - An example:  
