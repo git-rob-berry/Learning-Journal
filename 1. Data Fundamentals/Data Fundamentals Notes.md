@@ -617,7 +617,9 @@ CRISP-DM defines the analytical lifecycle, while Agile manages incremental deliv
 - CRISP-DM covers business understanding, data understanding, preparation, modelling, evaluation and deployment.
 - Agile and CRISP-DM can be combined to deliver analytical value incrementally.
 
+# 1.4 Introduction to reliable data architectures
 
+## eLearning
 
 
 
