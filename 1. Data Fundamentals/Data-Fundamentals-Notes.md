@@ -522,12 +522,17 @@ Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and col
 - Starts with planning, ends with retrospective
 - Sprint produces a demo of a working
 
-<img width="352" height="auto" alt="image" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
+<br>
+<img width="400" height="708" alt="image" src="https://github.com/user-attachments/assets/e800adb8-38d4-44c4-9cff-dfa6d41b500f" />
+<br>
+
 
 ### User Stories
 
 <img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/874b7ddb-1644-40e1-ae62-1a50484b61c8" />
 <br><br>
+
 Consider: Specificity, Acceptance Criteria, User Perspective & Objectives.   
 
 Ensure User stories follow invest:  
@@ -538,6 +543,10 @@ Ensure User stories follow invest:
 User story checklist:  
 
 <img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/cb6b41d2-ae30-4146-8e37-f03e643bf4ee" />
+<br><br>
+
+Template user story:  
+<img width="350" height="416" alt="image" src="https://github.com/user-attachments/assets/06550f65-481c-496e-8e0a-809502ec7009" />
 <br><br>
 
 Epic User Stories - An example:  
