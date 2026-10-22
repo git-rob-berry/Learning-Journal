@@ -1,5 +1,3 @@
-<img width="203" height="2268" alt="image" src="https://github.com/user-attachments/assets/e0eb166c-2be3-417c-ae59-882a682c2de8" /># HR Analytics Dashboard: Agile Backlog
-
 ## Project Overview
 
 Credit Bank Corporation wants to develop an HR analytics dashboard that provides better insights into:
