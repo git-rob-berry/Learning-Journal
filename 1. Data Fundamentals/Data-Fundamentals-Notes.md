@@ -509,6 +509,9 @@ Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and col
    - Waterfall uses MS Project, Scrum uses Jira.
    - Often sort tasks by priority, estimating relative effort.
   
+<img width="482" height="245" alt="image" src="https://github.com/user-attachments/assets/9c3e7323-5485-4bc2-a26f-876257e37d44" />
+<br><br>
+  
 2) Kanban
    - Manages complex workflows
    - Focuses on visualisation, limiting work in progress tasks (WIP) and enhancing data visibility.
@@ -520,4 +523,26 @@ Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and col
 - Sprint produces a demo of a working
 
 <img width="352" height="auto" alt="image" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
+
+### User Stories
+
+<img width="300" height="auto" alt="image" src="https://github.com/user-attachments/assets/874b7ddb-1644-40e1-ae62-1a50484b61c8" />
+<br><br>
+Consider: Specificity, Acceptance Criteria, User Perspective & Objectives.   
+
+Ensure User stories follow invest:  
+
+<img width="250" height="auto" alt="image" src="https://github.com/user-attachments/assets/8746f6c3-51e9-472e-94bc-cb1f3789035c" />
+<br><br>
+
+User story checklist:  
+
+<img width="150" height="auto" alt="image" src="https://github.com/user-attachments/assets/cb6b41d2-ae30-4146-8e37-f03e643bf4ee" />
+<br><br>
+
+Epic User Stories - An example:  
+
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/9604882e-0418-4f3b-b541-3252b22f604c" />
+<br><br>
+
 
