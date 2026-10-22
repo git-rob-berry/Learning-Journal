@@ -581,6 +581,25 @@ A hybrid approach:
 
 CRISP-DM Lifecycle for data scientists (look up more)  
 
+### Key Takeaways
+
+- Waterfall project management struggles with rapidly changing 
+requirements, lengthy development cycles, lack of stakeholder 
+feedback, and challenges with data complexity
+- Agile principles emphasise adaptability, iterative development, and 
+close collaboration
+- Scrum is a popular Agile framework that introduces specific roles 
+(Scrum Master, Product Owner, Team Members) and ceremonies 
+(Sprint Planning, Daily Standup, Sprint Review, Retrospectives
+- The Scrum Master embodies servant leadership and is responsible for 
+facilitating, improving, protecting, rewarding, and educating the Scrum 
+team
+- The Lean methodology is built upon five core principles: Continuous 
+Improvement, "Kaizen", "Genchi Genbutsu", Respect, and Teamwork
+- The DMAIC (Define, Measure, Analyze, Improve, Control) framework 
+combines Lean and Six Sigma principles
+- The Minimum Viable Product (MVP) is a strategy for delivering the 
+minimum set of features to validate assumptions and gather feedback
 
 
 
