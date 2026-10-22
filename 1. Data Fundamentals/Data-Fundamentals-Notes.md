@@ -581,7 +581,7 @@ A hybrid approach:
 
 CRISP-DM Lifecycle for data scientists (look up more)  
 
-### Key Takeaways
+### Key Concepts
 
 - Waterfall project management struggles with rapidly changing 
 requirements, lengthy development cycles, lack of stakeholder 
