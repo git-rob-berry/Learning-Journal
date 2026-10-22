@@ -480,3 +480,44 @@ _Example:_
 
 ## Webinar
 
+### Learning Objectives
+
+- List the limitations of the Waterfall model in the context of data engineering projects 
+- Explain how Agile principles and frameworks can foster adaptability and collaboration
+- Identify which Lean and Six Sigma practices can drive continuous improvement
+- Evaluate approaches to collaborating with diverse stakeholders in a way that aligns data-driven initiatives with business objectives
+- Argue how a data-driven culture can be championed within your organisation by leveraging the synergies between Agile, Lean, and Six Sigma approaches
+
+### Waterfall
+
+What is it? - Traditional, sequential, linear project management. Has distinct phases.  
+Pros - Fixed, predictable.  
+Cons - Inflexible to changing conditions, 14% success rate, unsuitable for dynamic data projects. Lengthy cycles. Lack of stakeholder feedback.  
+<img width="300" height="auto" alt="waterfall" src="https://github.com/user-attachments/assets/942a5b3e-b948-481a-a21a-f2f1a7d4a152" />
+<br><br>
+
+### Agile
+
+What is it? - Methodology (not a tool) for flexible project management. Kanban and Scrum frameworks.
+Pros - 28% more successful that waterfall (PwC). More adaptive, flexible and collaborative. Iterative, small chunks of focus/work (max 3 weeks each sprint).  
+<img width="300" height="auto" alt="agile" src="https://github.com/user-attachments/assets/c89331e9-7656-4a56-86fd-3da56863ceff" />
+
+### Agile Frameworks
+
+1) Scrum
+   - Lightweight and practical methodology
+   - Waterfall uses MS Project, Scrum uses Jira.
+   - Often sort tasks by priority, estimating relative effort.
+  
+2) Kanban
+   - Manages complex workflows
+   - Focuses on visualisation, limiting work in progress tasks (WIP) and enhancing data visibility.
+  
+### Sprints
+
+- Chunks of work with fixed-time iterations between 2 and 4 weeks in length
+- Starts with planning, ends with retrospective
+- Sprint produces a demo of a working
+
+<img width="352" height="auto" alt="image" src="https://github.com/user-attachments/assets/65e96dc3-cde7-4f29-85b5-89d66da44c91" />
+
