@@ -517,43 +517,41 @@ Define -> Measure -> Analyse -> Improve -> Control
 
 ## CRISP-DM Lifecycle for Data Scientists
 
-# CRISP-DM Lifecycle for Data Scientists
-
 CRISP-DM (**Cross-Industry Standard Process for Data Mining**) is an iterative framework for managing data science projects. It consists of six phases:
 
-## 1. Business Understanding
+### 1. Business Understanding
 - Define the business problem and objectives.
 - Identify stakeholders and success criteria.
 - Translate the business need into a data objective.
 
-## 2. Data Understanding
+### 2. Data Understanding
 - Collect and explore the available data.
 - Understand its structure, relationships and patterns.
 - Identify missing values, anomalies and data-quality issues.
 
-## 3. Data Preparation
+### 3. Data Preparation
 - Clean and transform the data.
 - Resolve duplicates and standardise formats.
 - Combine data sources and create useful features.
 - Prepare the final dataset for modelling.
 
-## 4. Modelling
+### 4. Modelling
 - Select appropriate modelling techniques.
 - Train and test candidate models.
 - Tune parameters and compare different approaches.
 
-## 5. Evaluation
+### 5. Evaluation
 - Assess model performance.
 - Compare results against the original business objectives.
 - Identify risks, limitations or bias.
 - Decide whether the solution is ready for deployment.
 
-## 6. Deployment
+### 6. Deployment
 - Put the model or analysis into practical use.
 - This could include a dashboard, report, API or automated pipeline.
 - Monitor performance and plan for future updates or retraining.
 
-## Key Point
+### Key Point
 
 CRISP-DM is **iterative rather than strictly linear**. Teams can return to earlier phases when new information, data-quality problems or modelling issues are discovered.
 
@@ -563,7 +561,7 @@ CRISP-DM is **iterative rather than strictly linear**. Teams can return to earli
 <br><br>
 
 
-## Why CRISP-DM Is Iterative
+### Why CRISP-DM Is Iterative
 
 - Poor quality may send the team from preparation back to understanding.
 - Weak model performance may require additional features or sources.
@@ -571,7 +569,7 @@ CRISP-DM is **iterative rather than strictly linear**. Teams can return to earli
 - Deployment feedback may generate new business questions.
 - Changes in operational data may require retraining and re-evaluation.
 
-## Relationship with Agile
+### Relationship with Agile
 
 CRISP-DM defines the analytical lifecycle, while Agile manages incremental delivery. Separate sprints may cover business understanding, profiling, preparation, modelling, evaluation, deployment and monitoring. Feedback becomes new backlog items and acceptance criteria.
 
