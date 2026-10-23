@@ -461,7 +461,7 @@ A user story should identify the user, required capability, expected value and a
 
 ### User Story Template
 
-<img width="350" height="416" alt="User story template" src="https://github.com/user-attachments/assets/06550f65-481c-496e-8e0a-809502ec7009" />
+<img width="350" height="auto" alt="User story template" src="https://github.com/user-attachments/assets/06550f65-481c-496e-8e0a-809502ec7009" />
 
 ```text
 As a [type of user],
@@ -517,77 +517,51 @@ Define -> Measure -> Analyse -> Improve -> Control
 
 ## CRISP-DM Lifecycle for Data Scientists
 
-CRISP-DM stands for **Cross-Industry Standard Process for Data Mining**. It is a structured but iterative lifecycle for data science and data-mining projects.
+# CRISP-DM Lifecycle for Data Scientists
 
-### The Six Phases
+CRISP-DM (**Cross-Industry Standard Process for Data Mining**) is an iterative framework for managing data science projects. It consists of six phases:
 
-### 1. Business Understanding
+## 1. Business Understanding
+- Define the business problem and objectives.
+- Identify stakeholders and success criteria.
+- Translate the business need into a data objective.
 
-- Define the business objective.
-- Identify stakeholders and users.
-- Understand constraints, risks and dependencies.
-- Define business and analytical success criteria.
-- Translate the business problem into a data objective.
-- Produce an initial project plan.
+## 2. Data Understanding
+- Collect and explore the available data.
+- Understand its structure, relationships and patterns.
+- Identify missing values, anomalies and data-quality issues.
 
-### 2. Data Understanding
+## 3. Data Preparation
+- Clean and transform the data.
+- Resolve duplicates and standardise formats.
+- Combine data sources and create useful features.
+- Prepare the final dataset for modelling.
 
-- Identify suitable sources.
-- Collect initial data.
-- Describe fields, formats and relationships.
-- Explore distributions and patterns.
-- Identify missing values, anomalies and quality issues.
-- Assess whether the data can answer the business question.
+## 4. Modelling
+- Select appropriate modelling techniques.
+- Train and test candidate models.
+- Tune parameters and compare different approaches.
 
-Possible outputs include a source inventory, data dictionary, exploratory analysis and quality report.
+## 5. Evaluation
+- Assess model performance.
+- Compare results against the original business objectives.
+- Identify risks, limitations or bias.
+- Decide whether the solution is ready for deployment.
 
-### 3. Data Preparation
+## 6. Deployment
+- Put the model or analysis into practical use.
+- This could include a dashboard, report, API or automated pipeline.
+- Monitor performance and plan for future updates or retraining.
 
-- Select relevant records and attributes.
-- Clean missing or invalid values.
-- Resolve duplicates.
-- Standardise formats and identifiers.
-- Join multiple sources.
-- Create derived features.
-- Reshape or aggregate data.
-- Document transformations and lineage.
-- Create training, validation and test datasets where appropriate.
+## Key Point
 
-### 4. Modelling
+CRISP-DM is **iterative rather than strictly linear**. Teams can return to earlier phases when new information, data-quality problems or modelling issues are discovered.
 
-- Select modelling techniques.
-- Define a testing approach.
-- Train candidate models.
-- Tune model parameters.
-- Compare alternatives.
-- Record assumptions and limitations.
+**Business Understanding → Data Understanding → Data Preparation → Modelling → Evaluation → Deployment** 
 
-Techniques may include decision trees, regression, classification, clustering, forecasting and anomaly detection.
+<img width="450" height="auto" alt="image" src="https://github.com/user-attachments/assets/5f9e2f35-48ec-4531-b1ed-1be33b03d2ea" />
+<br><br>
 
-### 5. Evaluation
-
-- Review model performance.
-- Compare results with success criteria.
-- Check for bias, leakage and inappropriate assumptions.
-- Confirm that the output is understandable and actionable.
-- Review risks and unintended consequences.
-- Decide whether to deploy, revise or stop.
-
-A technically accurate model may still fail to deliver useful business value.
-
-### 6. Deployment
-
-Deployment may involve:
-
-- Publishing a dashboard or report.
-- Integrating a model into an application.
-- Exposing predictions through an API.
-- Scheduling a batch pipeline.
-- Adding monitoring and alerts.
-- Training users.
-- Producing technical and user documentation.
-
-Ongoing plans should cover monitoring, retraining, ownership, support, security, performance, feedback and retirement.
 
 ## Why CRISP-DM Is Iterative
 
