@@ -302,4 +302,109 @@ ORDER BY last_name, first_name;
 for row in cursor.fetchall():
     print(row)
 
+
+# ==========================================
+# EXTENSION 1 - BOOKING SUMMARY
+# ==========================================
+
+print("\n--- BOOKING SUMMARY ---")
+
+cursor.execute("""
+SELECT
+    b.booking_id,
+    c.first_name || ' ' || c.last_name AS customer,
+    b.base_fare,
+
+    IFNULL(
+        (
+            SELECT SUM(p.amount)
+            FROM payment p
+            WHERE p.booking_id = b.booking_id
+        ),
+        0
+    ) AS total_paid,
+
+    CASE b.status
+        WHEN 'CONFIRMED' THEN 'Booked'
+        WHEN 'PENDING' THEN 'Awaiting Payment'
+        ELSE 'Cancelled'
+    END AS status_label
+
+FROM booking b
+
+JOIN customer c
+    ON c.customer_id = b.customer_id
+
+ORDER BY b.booked_at DESC;
+""")
+
+for row in cursor.fetchall():
+    print(row)
+
+
+
+# ==========================================
+# EXTENSION 2 - DATA QUALITY CHECKS
+# ==========================================
+
+print("\n--- DUPLICATE EMAIL CHECK ---")
+
+cursor.execute("""
+SELECT
+    email,
+    COUNT(*) AS count
+FROM customer
+GROUP BY email
+HAVING COUNT(*) > 1;
+""")
+
+results = cursor.fetchall()
+
+if results:
+    for row in results:
+        print(row)
+else:
+    print("No duplicate emails found.")
+
+print("\n--- BOOKING STATUS DISTRIBUTION ---")
+
+cursor.execute("""
+SELECT
+    status,
+    COUNT(*) AS bookings
+FROM booking
+GROUP BY status;
+""")
+
+for row in cursor.fetchall():
+    print(row)
+
+print("\n--- PAYMENT VS BASE FARE CHECK ---")
+
+cursor.execute("""
+SELECT
+    b.booking_id,
+    b.base_fare,
+    IFNULL(SUM(p.amount), 0) AS total_paid
+
+FROM booking b
+
+LEFT JOIN payment p
+    ON p.booking_id = b.booking_id
+
+GROUP BY
+    b.booking_id,
+    b.base_fare
+
+HAVING IFNULL(SUM(p.amount), 0) <> b.base_fare;
+""")
+
+results = cursor.fetchall()
+
+if results:
+    for row in results:
+        print(row)
+else:
+    print("All booking payments match their base fares.")
+
 conn.close()
