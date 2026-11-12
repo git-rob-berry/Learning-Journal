@@ -1,0 +1,31 @@
+airport_id,iata_code,name,city,country,created_at
+1,LHR,Heathrow,London,UK,2024-10-11T08:09:08
+2,LGW,Gatwick,London,UK,2025-07-08T08:09:08
+3,MAN,Manchester,Manchester,UK,2025-08-22T08:09:08
+4,EDI,Edinburgh,Edinburgh,UK,2025-04-16T08:09:08
+5,JFK,John F. Kennedy,New York,USA,2025-05-01T08:09:08
+6,EWR,Newark Liberty,Newark,USA,2025-05-12T08:09:08
+7,LAX,Los Angeles Intl,Los Angeles,USA,2025-06-24T08:09:08
+8,SFO,San Francisco Intl,San Francisco,USA,2025-07-13T08:09:08
+9,SEA,Seattle-Tacoma,Seattle,USA,2024-09-22T08:09:08
+10,ORD,O'Hare,Chicago,USA,2024-11-28T08:09:08
+11,DFW,Dallas/Fort Worth,Dallas,USA,2025-07-21T08:09:08
+12,YYZ,Pearson,Toronto,CAN,2024-11-05T08:09:08
+13,YVR,Vancouver Intl,Vancouver,CAN,2025-01-30T08:09:08
+14,CDG,Charles de Gaulle,Paris,FRA,2025-08-18T08:09:08
+15,ORY,Orly,Paris,FRA,2025-08-19T08:09:08
+16,AMS,Schiphol,Amsterdam,NLD,2025-07-18T08:09:08
+17,FRA,Frankfurt,Frankfurt,DEU,2025-05-15T08:09:08
+18,MUC,Munich,Munich,DEU,2025-05-07T08:09:08
+19,MAD,Barajas,Madrid,ESP,2024-12-19T08:09:08
+20,BCN,El Prat,Barcelona,ESP,2024-10-30T08:09:08
+21,DXB,Dubai Intl,Dubai,ARE,2025-08-21T08:09:08
+22,HKG,Hong Kong Intl,Hong Kong,CHN,2024-11-20T08:09:08
+23,SIN,Changi,Singapore,SGP,2025-05-25T08:09:08
+24,NRT,Narita,Tokyo,JPN,2024-10-06T08:09:08
+25,HND,Haneda,Tokyo,JPN,2024-09-09T08:09:08
+26,SYD,Kingsford Smith,Sydney,AUS,2024-11-28T08:09:08
+27,MEL,Tullamarine,Melbourne,AUS,2025-02-01T08:09:08
+28,DOH,Hamad Intl,Doha,QAT,2025-05-14T08:09:08
+29,ICN,Incheon,Seoul,KOR,2025-01-17T08:09:08
+30,ZRH,Zurich,Zurich,CHE,2024-11-06T08:09:08
