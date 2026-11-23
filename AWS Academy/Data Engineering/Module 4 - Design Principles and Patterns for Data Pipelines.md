@@ -38,10 +38,42 @@
 - Data can remain in the most appropriate storage system while still being analysed together.
 - This reduces unnecessary **data movement and duplication**.
 
+#### Timeline of Modern Architecture 
 <img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/95b5fd18-f87e-458b-a0db-7dd4055ac8f3" />
 <br><br>
 <img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/3590b507-dba4-4832-923c-9ea1b48d3027" />
 
+#### Modern data architecture
+<img width="400" height="auto" alt="image" src="https://github.com/user-attachments/assets/a6d48274-3ffb-46c2-95d9-5c78224cc62b" />
+
+#### AWS-mapped architecture
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/15a2b483-ece0-463b-b7d4-28ec2ad185fc" />
+
+### Pipeline: Ingestion and Storage in AWS 
+
+#### Ingestion Layer
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/ab56c5ae-dad2-465f-b3a4-df38dbc9a86e" />
+
+#### Storage and Catalog Layer
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/3ca70952-8c4d-42c9-a357-ad6c194314d6" />
+
+#### Prepare for analysis - from Lake to Warehouse
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/9db2e5df-796a-46de-a46f-5581355ada8b" />
+
+#### Automated Catalog Layers for Governance and Discoverability 
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/36bb0aab-cfe4-4986-aa47-cf6f9a54442f" />
+
+### Pipeline: Processing and Consumption in AWS 
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/3af4d921-665e-4632-803d-20d3e70885d9" />
+
+#### Processing Layer
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/623b7909-9866-44bb-842c-b4713d48160a" />
+
+#### Consumption Layer
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/c82455bc-b27a-417b-9ea1-07fe5eb2003a" />
 
 
 ### Streaming Data Pipelines
@@ -49,6 +81,9 @@
 - Streaming pipelines process data **continuously as it arrives**.
 - Useful when data requires **near-real-time processing or analytics**.
 - Streaming should only be used when the requirement justifies the additional complexity.
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/18642444-dea6-43e3-86ec-68eb46d17984" />
+
 
 ### Example: Combining SaaS and Warehouse Data
 
