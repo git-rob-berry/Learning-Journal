@@ -10,6 +10,9 @@
 | **Veracity** | Quality and trustworthiness | Requires validation, cleaning and lineage checks |
 | **Value** | Usefulness of the data | Data should provide business or analytical benefit |
 
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/0b02885f-8d13-4954-9d48-08c67304ae78" />
+
+
 ### Data Types
 
 | Type | Description | Example |
@@ -18,11 +21,16 @@
 | **Semi-structured** | Some structure but flexible schema | JSON, XML |
 | **Unstructured** | No predefined structure | Images, video, text |
 
-### Data Veracity
+### Data Veracity (trust and quality)
 
 - Question the **source and lineage** before data enters a pipeline.
 - Define what **clean data** means rather than making assumptions.
 - Validate transformations to ensure they produce the **intended results**.
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/96b05bb4-e529-430d-a498-72d7b192b551" />
+<br><br>
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/8b3ab88c-af3e-43cd-956a-bab95eeaa0dc" />
+
 
 ### Data Cleaning and Transformation
 
@@ -31,6 +39,9 @@
   - Simple **value substitutions**.
   - Standardising inconsistent formats.
   - Deriving **new values** from existing data.
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/582aa84d-e958-44e3-8ff7-0856fd08f73a" />
+
 
 ### Preserving Raw Data
 
