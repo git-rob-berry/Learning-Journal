@@ -29,11 +29,20 @@
 - Can guide the design of **reliable, secure, efficient and scalable analytics pipelines**.
 - Modern data architectures allow different AWS analytics services to work together.
 
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/13b2728c-735b-49c9-b186-78eb42b14657" />
+
+
 ### Modern Data Architecture
 
 - Modern architectures combine services for **data lakes, data warehouses, analytics and data processing**.
 - Data can remain in the most appropriate storage system while still being analysed together.
 - This reduces unnecessary **data movement and duplication**.
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/95b5fd18-f87e-458b-a0db-7dd4055ac8f3" />
+<br><br>
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/3590b507-dba4-4832-923c-9ea1b48d3027" />
+
+
 
 ### Streaming Data Pipelines
 
