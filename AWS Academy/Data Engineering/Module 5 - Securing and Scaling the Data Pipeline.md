@@ -8,7 +8,7 @@
   - **Provisioned mode** – capacity is managed using shards.
 - **On-demand mode is the recommended approach** when workloads are variable or unpredictable.
 
-### Kinesis Data Analytics
+### Stream data - Kinesis Data Analytics Auto-Scaling
 
 - **Kinesis Data Analytics** can automatically scale stream-processing applications.
 - Uses **parallel processing** to handle increasing data throughput.
@@ -84,3 +84,6 @@
 - Use **Application Auto Scaling** when supported AWS resources need to scale with demand.
 - Use **CloudFormation and IaC** for consistent, secure and scalable infrastructure.
 - Consider both **security and scalability** throughout the entire data pipeline.
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/d0b9461c-00a2-483e-aaaa-87549714d02f" />
+
