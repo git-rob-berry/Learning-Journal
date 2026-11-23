@@ -1,6 +1,6 @@
 # Ingesting and Preparing Data
 
-## ETL vs ELT
+## 1. ETL vs ELT
 
 **Data ingestion** is the process of bringing data from external sources into a data pipeline so it can be stored, processed and analysed.
 
@@ -54,7 +54,7 @@ ELT = **store it, then clean it when needed**.
 
 ---
 
-## Data Wrangling
+## 2. Data Wrangling
 
 **Data wrangling** is the process of transforming raw data from different sources and schemas into meaningful data that can be used downstream.
 
@@ -84,7 +84,7 @@ An easy way to understand the flow:
 
 ---
 
-## 1. Data Discovery
+## 3. Data Discovery
 
 **Discovery** is about understanding potential data sources before deciding how to use them.
 
@@ -110,7 +110,7 @@ Discovery should answer:
 
 ---
 
-## 2. Data Structuring
+## 4. Data Structuring
 
 **Structuring** converts raw source data into a format suitable for storage and combination with other data.
 
@@ -148,7 +148,7 @@ Structuring can also improve performance and reduce costs by:
 
 ---
 
-## 3. Data Cleaning
+## 5. Data Cleaning
 
 **Cleaning** prepares raw data so that it can be reliably used within the pipeline.
 
@@ -183,7 +183,7 @@ Cleaning is usually performed **per source**, because different sources have dif
 
 ---
 
-## 4. Data Enriching
+## 6. Data Enriching
 
 **Enriching** combines data from different sources or adds additional information to make the dataset more useful.
 
@@ -208,7 +208,7 @@ The resulting dataset contains more useful information than either source in iso
 
 ---
 
-## 5. Data Validating
+## 7. Data Validating
 
 **Validation** checks that the finished dataset is trustworthy and suitable for its intended use.
 
@@ -225,10 +225,12 @@ Typical checks include:
 
 ### Cleaning vs Validating
 
-**Cleaning:**  
+**Cleaning:**
+
 > Can this data be successfully processed and loaded?
 
-**Validating:**  
+**Validating:**
+
 > Is this data actually correct and trustworthy?
 
 Validation is often **iterative**:
@@ -237,7 +239,7 @@ Validation is often **iterative**:
 
 ---
 
-## 6. Data Publishing
+## 8. Data Publishing
 
 **Publishing** makes the prepared dataset available for consumers and downstream processes.
 
@@ -257,7 +259,7 @@ Publishing uses decisions made earlier during **structuring**.
 
 ---
 
-## Example AWS Data Flow
+## 9. Example AWS Data Flow
 
 A modern AWS architecture might use different zones within an **Amazon S3 data lake**:
 
@@ -283,7 +285,7 @@ Curated data can then be loaded into **Amazon Redshift** for fast analytics and 
 
 ---
 
-## AWS Services Mentioned
+## 10. AWS Services Mentioned
 
 ### Amazon S3
 
@@ -328,7 +330,7 @@ Used to apply **least-privilege access**, meaning users receive only the permiss
 
 ---
 
-## Example Publishing Process
+## 11. Example Publishing Process
 
 A dataset needs to be separated by sales region.
 
@@ -345,7 +347,7 @@ The data engineer could:
 
 ---
 
-## Exam Example
+## 12. Exam Example
 
 Scenario:
 
@@ -370,7 +372,7 @@ You first need to **understand how the different datasets relate to each other**
 
 ---
 
-## Key Takeaways
+## 13. Key Takeaways
 
 - **Ingestion** brings data into the pipeline and can include transformations.
 - **ETL:** Extract → Transform → Load.
@@ -391,3 +393,4 @@ You first need to **understand how the different datasets relate to each other**
 - **Validating** = check it.
 - **Publishing** = make it available.
 - AWS pipelines may use **S3, Glue, Athena, Redshift and IAM** to store, catalogue, query, analyse and secure data.
+
