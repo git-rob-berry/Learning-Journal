@@ -1,4 +1,4 @@
-### Data-Driven Organizations
+## Data-Driven Organizations
 
 - A **data-driven organization** treats data as a **strategic asset**.
 - Data should support both:
