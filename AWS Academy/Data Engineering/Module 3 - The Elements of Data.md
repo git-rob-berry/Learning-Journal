@@ -1,72 +1,89 @@
-- **Module 3: Elements of Data**
-  - The **5 Vs of data** are **Volume, Velocity, Variety, Veracity and Value**.
-  - These characteristics influence how a **data pipeline** should be designed.
+## Module 3: Elements of Data
 
-- **Volume**
-  - Refers to the **amount of data** being processed.
-  - Larger datasets require sufficient **storage, processing power and scalability**.
+### The 5 Vs of Data
 
-- **Velocity**
-  - Refers to the **speed at which data is generated and processed**.
-  - High-velocity data may require **real-time or streaming pipelines**.
+| V | Meaning | Impact |
+|---|---|---|
+| **Volume** | Amount of data | Affects storage, processing and scalability |
+| **Velocity** | Speed data is generated/processed | May require real-time or streaming pipelines |
+| **Variety** | Different data types and formats | Determines how data must be stored and processed |
+| **Veracity** | Quality and trustworthiness | Requires validation, cleaning and lineage checks |
+| **Value** | Usefulness of the data | Data should provide business or analytical benefit |
 
-- **Variety**
-  - Data can have different structures and formats:
+### Data Types
 
 | Type | Description | Example |
 |---|---|---|
-| **Structured** | Organised into a predefined schema | SQL tables |
-| **Semi-structured** | Has some structure but a flexible schema | JSON, XML |
+| **Structured** | Fixed, predefined schema | SQL tables |
+| **Semi-structured** | Some structure but flexible schema | JSON, XML |
 | **Unstructured** | No predefined structure | Images, video, text |
 
-- **Veracity**
-  - Refers to the **trustworthiness and quality** of data.
-  - Question the **source and lineage** of data before adding it to a pipeline.
-  - Define what **clean data** means rather than making assumptions.
-  - Check that transformations produce the **intended results**.
+### Data Veracity
 
-- **Value**
-  - Data should provide useful **business or analytical value**.
-  - Retaining detailed data allows new insights to be gained in the future.
+- Question the **source and lineage** before data enters a pipeline.
+- Define what **clean data** means rather than making assumptions.
+- Validate transformations to ensure they produce the **intended results**.
 
-- **Data cleaning and transformation**
-  - Establish a **common definition** of clean data.
-  - Transformations can range from simple **value substitutions** to deriving entirely **new values**.
-  - Standardise inconsistent formats before using data for analysis.
+### Data Cleaning and Transformation
 
-- **Preserve raw data**
-  - Keep **raw data immutable** rather than overwriting it.
-  - Store detailed, **timestamped records** instead of only aggregated results.
-  - This supports **future analysis, troubleshooting and auditing**.
+- Establish a **common definition** of clean data.
+- Transformations can include:
+  - Simple **value substitutions**.
+  - Standardising inconsistent formats.
+  - Deriving **new values** from existing data.
 
-- **Governance and compliance**
-  - Implement **data governance and compliance processes**.
-  - Protect the **integrity and reliability** of data.
-  - Control how cleaned and processed data can be accessed or modified.
+### Preserving Raw Data
 
-- **Planning a data pipeline**
-  - Use the **5 Vs** to assess the requirements of a data source.
-  - Consider its size, speed, format, reliability and potential value before designing the pipeline.
+- Keep **raw data immutable** rather than overwriting it.
+- Store detailed **timestamped records**, not just aggregated results.
+- This supports:
+  - **Future analysis**
+  - Troubleshooting
+  - **Auditing**
+  - Finding data errors
 
-- **Example: partner sales pipeline**
-  - Multiple partners provide monthly **CSV files** containing similar data in different formats.
-  - Best approach:
-    1. **Extract** data from each partner file.
-    2. **Transform** it into a common structure.
-    3. **Load** the detailed records into the analytics data store.
-  - This is an example of an **ETL process**.
+### Governance and Compliance
 
-- **Why retain detailed records?**
-  - Supports **future analysis** beyond the original requirement.
-  - Improves **auditability**.
-  - Makes it easier to investigate errors.
-  - Avoid storing only aggregated values such as total sales when the underlying records could be useful.
+- Use **data governance and compliance** processes to protect data.
+- Maintain the **integrity and reliability** of data.
+- Control who can access or modify processed data.
 
-- **Protect analytics data**
-  - Avoid allowing source users to directly modify data in the **analytics store**.
-  - Errors should preferably be corrected at the **source** and then processed through the pipeline again.
-  - This reduces **human error** and protects data veracity.
+### Planning a Data Pipeline
 
-- **Key takeaway**
-  - Understand the **5 Vs** before designing a pipeline.
-  - Question data **before ingestion**, standardise and clean it during processing, preserve the **raw data**, and use governance to protect it throughout its lifecycle.
+- Use the **5 Vs** when assessing a data source.
+- Consider its:
+  - Size
+  - Speed
+  - Format
+  - Reliability
+  - Potential value
+
+### Example: Partner Sales Pipeline
+
+- Multiple partners provide monthly **CSV files** containing similar data in different formats.
+- Best approach:
+  1. **Extract** data from each file.
+  2. **Transform** it into a common structure.
+  3. **Load** the detailed records into the analytics store.
+- This follows the **ETL (Extract, Transform, Load)** process.
+
+### Why Keep Detailed Records?
+
+- Enables **future analysis** beyond the original requirement.
+- Improves **auditability**.
+- Makes errors easier to investigate.
+- Avoid storing only aggregated values when the underlying detail could be useful.
+
+### Protecting Analytics Data
+
+- Avoid allowing source users to directly modify the **analytics store**.
+- Where possible, fix errors at the **source** and process the data again.
+- This reduces **human error** and protects data veracity.
+
+### Key Takeaways
+
+- Use the **5 Vs** to understand data before designing a pipeline.
+- Question and validate data **before ingestion**.
+- Clean and standardise data during processing.
+- Preserve **raw, detailed data** for future use.
+- Use **governance and compliance** to protect data throughout its lifecycle.
