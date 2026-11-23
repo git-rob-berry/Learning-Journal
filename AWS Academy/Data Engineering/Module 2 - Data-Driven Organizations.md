@@ -40,6 +40,9 @@ The four main layers of a data pipeline are:
 
 `Ingestion → Storage → Processing → Analysis & Visualization`
 
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/98f05f43-488d-4d71-8958-eb89e128e646" />
+
+
 ### Data Roles
 
 **Data Engineers**
