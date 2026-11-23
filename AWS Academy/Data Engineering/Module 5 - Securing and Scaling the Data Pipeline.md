@@ -32,6 +32,9 @@
   4. **Lambda** increases or decreases the number of Kinesis shards.
 - **Kinesis on-demand mode** is now simpler and generally preferred over manually implementing this approach.
 
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/8ae189b7-7b70-449e-b837-91f64145ba49" />
+
+
 ### Infrastructure as Code
 
 - **Infrastructure as Code (IaC)** defines infrastructure through code rather than manual configuration.
@@ -41,6 +44,9 @@
   - Security and configuration consistency
   - Easier scaling
   - Reduced manual errors
+
+<img width="500" height="auto" alt="image" src="https://github.com/user-attachments/assets/421a0a6d-b56a-4d3d-8ab4-b463a3da063d" />
+
 
 ### Security
 
