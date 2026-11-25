@@ -155,6 +155,10 @@ Structuring can also improve performance and reduce costs by:
 - Compressing files.
 - Partitioning data appropriately.
 
+<br><br>
+<img width="1346" height="612" alt="image" src="https://github.com/user-attachments/assets/08519d3f-d8aa-4a41-9705-686e78811610" />
+<br><br>
+
 ---
 
 ## 5. Data Cleaning
