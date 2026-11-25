@@ -82,6 +82,9 @@ An easy way to understand the flow:
 | **Validating** | Check the data |
 | **Publishing** | Make the data available |
 
+<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/679c014b-dcb8-4004-b130-ca4016fe37e1" />
+<br><br>
+
 ---
 
 ## 3. Data Discovery
