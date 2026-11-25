@@ -113,7 +113,7 @@ Discovery should answer:
 
 > **What data do we need, how does it relate, and how should we work with it?**
 <br><br>
-<img width="550" height="715" alt="image" src="https://github.com/user-attachments/assets/3a789e48-b467-447a-b7d8-591476310286" />
+<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/3a789e48-b467-447a-b7d8-591476310286" />
 <br><br>
 
 
