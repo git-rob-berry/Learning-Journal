@@ -275,6 +275,11 @@ Typical tasks:
 
 Publishing uses decisions made earlier during **structuring**.
 
+
+<br><br>
+<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/7255a069-3d19-445d-a337-1a251a5e795a" />
+<br><br>
+
 ---
 
 ## 9. Example AWS Data Flow
