@@ -81,8 +81,10 @@ An easy way to understand the flow:
 | **Enriching** | Add/combine useful data |
 | **Validating** | Check the data |
 | **Publishing** | Make the data available |
-
+<br><br>
 <img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/679c014b-dcb8-4004-b130-ca4016fe37e1" />
+<br><br>
+<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/258a18f2-0ded-4dbd-9be5-fe49bdd1ce36" />
 <br><br>
 
 ---
