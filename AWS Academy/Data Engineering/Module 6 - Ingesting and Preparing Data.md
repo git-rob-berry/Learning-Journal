@@ -112,6 +112,7 @@ Discovery is **iterative** and may differ depending on whether you are a data en
 Discovery should answer:
 
 > **What data do we need, how does it relate, and how should we work with it?**
+
 <br><br>
 <img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/3a789e48-b467-447a-b7d8-591476310286" />
 <br><br>
@@ -156,7 +157,7 @@ Structuring can also improve performance and reduce costs by:
 - Partitioning data appropriately.
 
 <br><br>
-<img width="1346" height="612" alt="image" src="https://github.com/user-attachments/assets/08519d3f-d8aa-4a41-9705-686e78811610" />
+<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/08519d3f-d8aa-4a41-9705-686e78811610" />
 <br><br>
 
 ---
@@ -193,6 +194,10 @@ Or standardise dates into:
 ### Important
 
 Cleaning is usually performed **per source**, because different sources have different data quality issues.
+
+<br><br>
+<img width="550" height="auto" alt="image" src="https://github.com/user-attachments/assets/12a630a5-4bf9-4106-a05d-c865fa8d21fb" />
+<br><br>
 
 ---
 
